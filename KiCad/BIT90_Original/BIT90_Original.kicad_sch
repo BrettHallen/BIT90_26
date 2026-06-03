@@ -25,6 +25,48 @@
 		(uuid "df437b1c-d187-4ac9-938b-8705bd1fb99b")
 	)
 	(sheet
+		(at 88.9 21.59)
+		(size 25.4 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e694d85-a404-4539-bd2a-3f7e796010a7")
+		(property "Sheetname" "Processor"
+			(at 88.9 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Processor.kicad_sch"
+			(at 88.9 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 160.02)
 		(size 30.48 29.21)
 		(exclude_from_sim no)
@@ -104,6 +146,48 @@
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 161.29)
+		(size 24.13 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e81928b-4d1a-4035-937b-9595d50d7b18")
+		(property "Sheetname" "Spare Gates"
+			(at 66.04 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Spares.kicad_sch"
+			(at 66.04 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "6")
 				)
 			)
 		)

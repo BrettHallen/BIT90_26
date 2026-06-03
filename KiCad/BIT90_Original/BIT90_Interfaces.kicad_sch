@@ -3731,7 +3731,7 @@
 		)
 	)
 	(global_label "~{WAIT}"
-		(shape input)
+		(shape bidirectional)
 		(at 85.09 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -3742,7 +3742,7 @@
 		)
 		(uuid "032f250f-3413-4904-ac21-13717eb6bb52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 142.9876 90)
+			(at 85.09 144.0989 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 		)
 	)
 	(global_label "~{DISM}"
-		(shape bidirectional)
+		(shape output)
 		(at 39.37 123.19 90)
 		(fields_autoplaced yes)
 		(effects
@@ -3918,7 +3918,7 @@
 		)
 		(uuid "0c560c7d-56b1-488b-8762-46ad4630a8c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 114.5578 90)
+			(at 39.37 115.6691 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4611,7 @@
 		)
 	)
 	(global_label "RES"
-		(shape input)
+		(shape output)
 		(at 49.53 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4743,7 +4743,7 @@
 		)
 	)
 	(global_label "~{INT}"
-		(shape input)
+		(shape bidirectional)
 		(at 87.63 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4754,7 +4754,7 @@
 		)
 		(uuid "584f6712-1334-498e-8483-9a1f2fd87c2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 141.7781 90)
+			(at 87.63 142.8894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5755,7 @@
 		)
 	)
 	(global_label "~{RST}"
-		(shape bidirectional)
+		(shape input)
 		(at 80.01 123.19 90)
 		(fields_autoplaced yes)
 		(effects
@@ -5766,7 +5766,7 @@
 		)
 		(uuid "a4a5f27f-4c86-49b1-9fcb-d4bad1930611")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 115.6464 90)
+			(at 80.01 116.7577 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6283,7 @@
 		)
 	)
 	(global_label "INT"
-		(shape bidirectional)
+		(shape output)
 		(at 87.63 123.19 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6294,7 +6294,7 @@
 		)
 		(uuid "e5e8fdad-cd27-4a23-a043-9d192f4f8285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 116.1906 90)
+			(at 87.63 117.3019 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,31 +6823,31 @@
 			)
 		)
 		(pin "9"
-			(uuid "b6e55bf7-5b66-4d34-98aa-59d213b67967")
+			(uuid "b6e55bf7-5b66-4d34-98aa-59d213b67968")
 		)
 		(pin "5"
-			(uuid "178850db-cee7-4c2f-8188-6365c08c8b7c")
+			(uuid "178850db-cee7-4c2f-8188-6365c08c8b7d")
 		)
 		(pin "4"
-			(uuid "55bab6ee-022a-498a-9e55-83a4d3992893")
+			(uuid "55bab6ee-022a-498a-9e55-83a4d3992894")
 		)
 		(pin "8"
-			(uuid "b2aec9f8-f7ed-422b-98d6-0c8e48a1d68d")
+			(uuid "b2aec9f8-f7ed-422b-98d6-0c8e48a1d68e")
 		)
 		(pin "7"
-			(uuid "c8c8ea0e-bf13-4fc3-a8f1-2f64d3b5eec1")
+			(uuid "c8c8ea0e-bf13-4fc3-a8f1-2f64d3b5eec2")
 		)
 		(pin "3"
-			(uuid "1e2d382e-d397-411e-88a8-a3ec5236da7e")
+			(uuid "1e2d382e-d397-411e-88a8-a3ec5236da7f")
 		)
 		(pin "2"
-			(uuid "4176e083-5c2c-4cc8-8070-67bedd6145f9")
+			(uuid "4176e083-5c2c-4cc8-8070-67bedd6145fa")
 		)
 		(pin "6"
-			(uuid "faf7c5c4-bbf9-43e3-86a1-3d3f31c407d1")
+			(uuid "faf7c5c4-bbf9-43e3-86a1-3d3f31c407d2")
 		)
 		(pin "1"
-			(uuid "3fd36be5-b838-472e-8dfa-e271146c9ab0")
+			(uuid "3fd36be5-b838-472e-8dfa-e271146c9ab1")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -6914,31 +6914,31 @@
 			)
 		)
 		(pin "9"
-			(uuid "b6e55bf7-5b66-4d34-98aa-59d213b67967")
+			(uuid "b6e55bf7-5b66-4d34-98aa-59d213b67969")
 		)
 		(pin "5"
-			(uuid "178850db-cee7-4c2f-8188-6365c08c8b7c")
+			(uuid "178850db-cee7-4c2f-8188-6365c08c8b7e")
 		)
 		(pin "4"
-			(uuid "55bab6ee-022a-498a-9e55-83a4d3992893")
+			(uuid "55bab6ee-022a-498a-9e55-83a4d3992895")
 		)
 		(pin "8"
-			(uuid "b2aec9f8-f7ed-422b-98d6-0c8e48a1d68d")
+			(uuid "b2aec9f8-f7ed-422b-98d6-0c8e48a1d68f")
 		)
 		(pin "7"
-			(uuid "c8c8ea0e-bf13-4fc3-a8f1-2f64d3b5eec1")
+			(uuid "c8c8ea0e-bf13-4fc3-a8f1-2f64d3b5eec3")
 		)
 		(pin "3"
-			(uuid "1e2d382e-d397-411e-88a8-a3ec5236da7e")
+			(uuid "1e2d382e-d397-411e-88a8-a3ec5236da80")
 		)
 		(pin "2"
-			(uuid "4176e083-5c2c-4cc8-8070-67bedd6145f9")
+			(uuid "4176e083-5c2c-4cc8-8070-67bedd6145fb")
 		)
 		(pin "6"
-			(uuid "faf7c5c4-bbf9-43e3-86a1-3d3f31c407d1")
+			(uuid "faf7c5c4-bbf9-43e3-86a1-3d3f31c407d3")
 		)
 		(pin "1"
-			(uuid "3fd36be5-b838-472e-8dfa-e271146c9ab0")
+			(uuid "3fd36be5-b838-472e-8dfa-e271146c9ab2")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -7340,31 +7340,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "98eaed0c-0455-4e26-b79f-dcc623feab45")
+			(uuid "98eaed0c-0455-4e26-b79f-dcc623feab46")
 		)
 		(pin "2"
-			(uuid "0a644dd7-6837-47d3-9039-b2cb6318b140")
+			(uuid "0a644dd7-6837-47d3-9039-b2cb6318b141")
 		)
 		(pin "8"
-			(uuid "cba4a399-2c57-4f74-aa76-edb07de7e9f9")
+			(uuid "cba4a399-2c57-4f74-aa76-edb07de7e9fa")
 		)
 		(pin "7"
-			(uuid "8616ebdc-b40f-4079-abc9-f1ebe5c11ef1")
+			(uuid "8616ebdc-b40f-4079-abc9-f1ebe5c11ef2")
 		)
 		(pin "9"
-			(uuid "45a5a364-9b20-4b9b-9676-d6ba6822f05e")
+			(uuid "45a5a364-9b20-4b9b-9676-d6ba6822f05f")
 		)
 		(pin "5"
-			(uuid "6dc2eab5-5561-4071-8619-fdd7b2cf46a4")
+			(uuid "6dc2eab5-5561-4071-8619-fdd7b2cf46a5")
 		)
 		(pin "6"
-			(uuid "07d98708-526e-4d8f-8f83-d46bd2cd8854")
+			(uuid "07d98708-526e-4d8f-8f83-d46bd2cd8855")
 		)
 		(pin "3"
-			(uuid "40fcdc4a-b392-4ec7-b66d-2f559425db4d")
+			(uuid "40fcdc4a-b392-4ec7-b66d-2f559425db4e")
 		)
 		(pin "4"
-			(uuid "6f04e707-bca1-4ddd-9d2c-52990cbd7aac")
+			(uuid "6f04e707-bca1-4ddd-9d2c-52990cbd7aad")
 		)
 		(instances
 			(project "BIT90_Original"

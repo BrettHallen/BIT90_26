@@ -424,6 +424,14 @@
     [
       "57d0cf31-48ad-4efd-bf8b-4b09c92318f8",
       "Interfaces"
+    ],
+    [
+      "2e694d85-a404-4539-bd2a-3f7e796010a7",
+      "Processor"
+    ],
+    [
+      "9e81928b-4d1a-4035-937b-9595d50d7b18",
+      "Spare Gates"
     ]
   ],
   "text_variables": {}
