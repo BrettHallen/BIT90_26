@@ -1,5 +1,5 @@
 # BIT90/26
-An attempted recreation of the HIT90 computer from 1983:<br>
+An attempted recreation of the HIT90 computer from 1983 that is about [US$90,000 cheaper than a used one](https://web.archive.org/web/20260206154213/https://www.ebay.com/itm/127471879150):<br>
 - Z80 CPU
 - TMS9929A VDP
 - 2KB RAM (one TC5517/4016 SRAM)
@@ -11,6 +11,8 @@ An attempted recreation of the HIT90 computer from 1983:<br>
 - combination audio/video/tape port (DE9)
 - expansion edge connector (2x30 pin)
 - 5-pin DIN for power (±5V & +12V)
+
+![BIT90 original](https://github.com/b3rendsh/bit90/blob/main/images/BIT90.jpg)
 
 Heavily relying on all the excellent information shared by [b3rendsh](https://github.com/b3rendsh) in their [BIT90 repository](https://github.com/b3rendsh/bit90).<br>
 
