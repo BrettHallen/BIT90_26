@@ -16,12 +16,12 @@ Heavily relying on all the excellent information shared by [b3rendsh](https://gi
 
 ## [Part 1](/KiCad/BIT90_Original/) - Work In Progress
 The initial aim of the project is to recreate the original schematics in KiCad:<br>
-- Sheet 6-1 (Processor): done
+- Sheet 6-1 (Processor): completed
 - Sheet 6-2 (Video Control): pending
 - Sheet 6-3 (Joystick, Audio, Tape): pending
-- Sheet 6-4 (Keyboard): partially done
+- Sheet 6-4 (Keyboard): completed
 - Sheet 6-5 (PAL Video Encoder): pending
-- Sheet 6-6 (Expansion): done
+- Sheet 6-6 (Expansion): completed
 - Sheet 7-5 (PAL Video Encoder/32K): pending
 - 32K DRAM (4416x4): pending
 
