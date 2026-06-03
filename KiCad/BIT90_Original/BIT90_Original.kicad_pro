@@ -436,6 +436,10 @@
     [
       "e454d622-f3e6-467f-ab52-84d3deb6b624",
       "Video Control"
+    ],
+    [
+      "34ca744d-dd45-404c-a860-0ec9b26efacc",
+      "Joystick, Audio, Tape Out"
     ]
   ],
   "text_variables": {}

@@ -4092,10 +4092,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Looks like \"C12\" but this is assigned already"
+	(text_box "Marked as \"C12\" on original schematic"
 		(exclude_from_sim no)
 		(at 260.35 59.69 0)
-		(size 12.7 11.43)
+		(size 12.7 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4114,7 +4114,7 @@
 	)
 	(text_box "Unmarked on original schematic"
 		(exclude_from_sim no)
-		(at 162.56 148.59 0)
+		(at 163.83 153.67 0)
 		(size 12.7 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -5561,6 +5561,16 @@
 		)
 		(uuid "1781bf61-c3ff-4854-8429-1bd22182a9a8")
 	)
+	(wire
+		(pts
+			(xy 182.88 104.14) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1786c6fd-a853-4f57-9631-238da3eb1d10")
+	)
 	(bus
 		(pts
 			(xy 73.66 38.1) (xy 73.66 41.91)
@@ -6390,6 +6400,16 @@
 			(type default)
 		)
 		(uuid "65e645a2-ba43-42fd-95bb-251a40e68c16")
+	)
+	(wire
+		(pts
+			(xy 182.88 133.35) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e67efd-848d-47a0-9d5f-77701cff5a50")
 	)
 	(wire
 		(pts
@@ -7443,16 +7463,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 182.88 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9dbe387-d8cf-443a-a61d-a9034c2e25d2")
-	)
-	(wire
-		(pts
 			(xy 113.03 127) (xy 124.46 127)
 		)
 		(stroke
@@ -7550,16 +7560,6 @@
 			(type default)
 		)
 		(uuid "c5c701ce-e6f0-46d2-a127-0efb0027e26d")
-	)
-	(wire
-		(pts
-			(xy 182.88 120.65) (xy 182.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6867483-46cb-4b18-b0b4-506070ec392a")
 	)
 	(wire
 		(pts
@@ -8742,7 +8742,7 @@
 		(uuid "861ef4e7-46fb-40ce-a754-0827d56b2532")
 	)
 	(label "VDPΦ"
-		(at 182.88 119.38 0)
+		(at 182.88 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11407,8 +11407,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ec3a2a-eb65-431b-88d0-fa45ed34141c")
-		(property "Reference" "C??"
-			(at 257.81 55.8799 0)
+		(property "Reference" "C11"
+			(at 257.81 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "100nF (104)"
 			(at 257.81 57.1499 0)
 			(effects
 				(font
@@ -11461,7 +11461,7 @@
 		(instances
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e454d622-f3e6-467f-ab52-84d3deb6b624"
-					(reference "C??")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11996,10 +11996,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca4")
+			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca5")
 		)
 		(pin "1"
-			(uuid "bb80aabe-b45b-4587-8516-a2e858822e70")
+			(uuid "bb80aabe-b45b-4587-8516-a2e858822e71")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -12531,10 +12531,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca4")
+			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca6")
 		)
 		(pin "1"
-			(uuid "bb80aabe-b45b-4587-8516-a2e858822e70")
+			(uuid "bb80aabe-b45b-4587-8516-a2e858822e72")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -12711,46 +12711,46 @@
 			)
 		)
 		(pin "13"
-			(uuid "c1fc1cde-e9c4-42e5-883f-4eb32246b228")
+			(uuid "c1fc1cde-e9c4-42e5-883f-4eb32246b229")
 		)
 		(pin "14"
-			(uuid "676d095f-51c9-48b8-a72e-fcc8a1131ec4")
+			(uuid "676d095f-51c9-48b8-a72e-fcc8a1131ec5")
 		)
 		(pin "10"
-			(uuid "69c83ddd-beb6-4b83-9cfa-a6568aa9dbbf")
+			(uuid "69c83ddd-beb6-4b83-9cfa-a6568aa9dbc0")
 		)
 		(pin "12"
-			(uuid "8dd687f3-a35d-4ab3-b405-0f85691228e3")
+			(uuid "8dd687f3-a35d-4ab3-b405-0f85691228e4")
 		)
 		(pin "9"
-			(uuid "6b0f9a6e-6630-482b-9096-2ce97e907518")
+			(uuid "6b0f9a6e-6630-482b-9096-2ce97e907519")
 		)
 		(pin "11"
-			(uuid "8c5ef962-0fce-4a7f-a295-813c82e8314c")
+			(uuid "8c5ef962-0fce-4a7f-a295-813c82e8314d")
 		)
 		(pin "8"
-			(uuid "d00c2869-11b1-45d1-be49-ef9f4795e50a")
+			(uuid "d00c2869-11b1-45d1-be49-ef9f4795e50b")
 		)
 		(pin "6"
-			(uuid "b9ed717e-2133-4c67-9d5d-54d18a27265c")
+			(uuid "b9ed717e-2133-4c67-9d5d-54d18a27265d")
 		)
 		(pin "5"
-			(uuid "c02b7de6-3035-4797-bcbd-f8ca0cec22ad")
+			(uuid "c02b7de6-3035-4797-bcbd-f8ca0cec22ae")
 		)
 		(pin "4"
-			(uuid "46216ede-9dd8-4ea0-b2cc-6730807afb90")
+			(uuid "46216ede-9dd8-4ea0-b2cc-6730807afb91")
 		)
 		(pin "3"
-			(uuid "a2dc61a6-6dc6-42b7-81cf-a05a94ca3bda")
+			(uuid "a2dc61a6-6dc6-42b7-81cf-a05a94ca3bdb")
 		)
 		(pin "2"
-			(uuid "27e7a0fa-1b9c-4bcd-b156-adebbd5cda69")
+			(uuid "27e7a0fa-1b9c-4bcd-b156-adebbd5cda6a")
 		)
 		(pin "1"
-			(uuid "000e556a-9fa8-43e1-bf27-279d6524b220")
+			(uuid "000e556a-9fa8-43e1-bf27-279d6524b221")
 		)
 		(pin "7"
-			(uuid "2c792f1f-97bf-467a-bc69-57c6a229fcfb")
+			(uuid "2c792f1f-97bf-467a-bc69-57c6a229fcfc")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -12954,16 +12954,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3cc1813-eb5b-4cf1-b6eb-83fd68615da8")
-		(property "Reference" "C??"
-			(at 177.8 148.59 0)
+		(property "Reference" "C8"
+			(at 177.8 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "??"
-			(at 177.8 150.622 0)
+		(property "Value" "100nF (104)"
+			(at 173.228 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,7 +13006,7 @@
 		(instances
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e454d622-f3e6-467f-ab52-84d3deb6b624"
-					(reference "C??")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13066,10 +13066,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca4")
+			(uuid "3a3995f2-8ebc-48dd-bdb0-e528602b5ca7")
 		)
 		(pin "1"
-			(uuid "bb80aabe-b45b-4587-8516-a2e858822e70")
+			(uuid "bb80aabe-b45b-4587-8516-a2e858822e73")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -13134,46 +13134,46 @@
 			)
 		)
 		(pin "12"
-			(uuid "e5cbf857-d618-45b1-a6dc-716c84a6572a")
+			(uuid "e5cbf857-d618-45b1-a6dc-716c84a6572b")
 		)
 		(pin "4"
-			(uuid "9e596d1b-4cfd-47b4-b9b0-cf54c3f2ab5f")
+			(uuid "9e596d1b-4cfd-47b4-b9b0-cf54c3f2ab60")
 		)
 		(pin "7"
-			(uuid "7be8321c-108c-4726-8f7b-1e8a97a92e22")
+			(uuid "7be8321c-108c-4726-8f7b-1e8a97a92e23")
 		)
 		(pin "6"
-			(uuid "b19e76cf-14d8-4a45-815d-8b55d93fdbed")
+			(uuid "b19e76cf-14d8-4a45-815d-8b55d93fdbee")
 		)
 		(pin "5"
-			(uuid "27ac35c1-b250-4314-a6cd-578d5924f96f")
+			(uuid "27ac35c1-b250-4314-a6cd-578d5924f970")
 		)
 		(pin "14"
-			(uuid "97dfc1e4-115a-4e72-bbb9-60287f1a51bb")
+			(uuid "97dfc1e4-115a-4e72-bbb9-60287f1a51bc")
 		)
 		(pin "10"
-			(uuid "68d209a7-5dd6-4666-a3bd-ed2ce7605410")
+			(uuid "68d209a7-5dd6-4666-a3bd-ed2ce7605411")
 		)
 		(pin "11"
-			(uuid "31bf20cb-2582-4090-8952-7e5b7a5aeac4")
+			(uuid "31bf20cb-2582-4090-8952-7e5b7a5aeac5")
 		)
 		(pin "1"
-			(uuid "15a811af-97bf-43d2-b2e2-97f5b35032ce")
+			(uuid "15a811af-97bf-43d2-b2e2-97f5b35032cf")
 		)
 		(pin "13"
-			(uuid "a4022945-6eb4-44ae-9a62-f2a498299792")
+			(uuid "a4022945-6eb4-44ae-9a62-f2a498299793")
 		)
 		(pin "3"
-			(uuid "c7f55653-e5a0-416a-a329-d96087fb1b8c")
+			(uuid "c7f55653-e5a0-416a-a329-d96087fb1b8d")
 		)
 		(pin "2"
-			(uuid "d790441b-3e7b-4b4b-94b8-82e56a3bc959")
+			(uuid "d790441b-3e7b-4b4b-94b8-82e56a3bc95a")
 		)
 		(pin "8"
-			(uuid "0f683943-cd97-4438-8584-be0fec1e1927")
+			(uuid "0f683943-cd97-4438-8584-be0fec1e1928")
 		)
 		(pin "9"
-			(uuid "d2fd92b4-5cce-41c0-bc9e-7614c0aa2756")
+			(uuid "d2fd92b4-5cce-41c0-bc9e-7614c0aa2757")
 		)
 		(instances
 			(project "BIT90_Original"

@@ -67,6 +67,48 @@
 		)
 	)
 	(sheet
+		(at 158.75 22.86)
+		(size 29.21 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34ca744d-dd45-404c-a860-0ec9b26efacc")
+		(property "Sheetname" "Joystick, Audio, Tape Out"
+			(at 158.75 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Joystick_Audio_TapeOut.kicad_sch"
+			(at 158.75 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 160.02)
 		(size 30.48 29.21)
 		(exclude_from_sim no)
@@ -193,7 +235,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 21.59)
+		(at 121.92 22.86)
 		(size 24.13 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -209,7 +251,7 @@
 		)
 		(uuid "e454d622-f3e6-467f-ab52-84d3deb6b624")
 		(property "Sheetname" "Video Control"
-			(at 124.46 20.8784 0)
+			(at 121.92 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -218,7 +260,7 @@
 			)
 		)
 		(property "Sheetfile" "BIT90_Video_Control.kicad_sch"
-			(at 124.46 56.4646 0)
+			(at 121.92 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
