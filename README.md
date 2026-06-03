@@ -9,11 +9,11 @@ An attempted recreation of the HIT90 computer from 1983:<br>
 - Colecovision cartridge/tape compatible
 - combination audio/video/tape port (DE9)
 - expansion edge connector
-- 5-pin DIN for power (±5V & +12V)
+- 5-pin DIN for power (Â±5V & +12V)
 
 Heavily relying on all the excellent information shared by [b3rendsh](https://github.com/b3rendsh) in their [BIT90 repository](https://github.com/b3rendsh/bit90).<br>
 
-## Part 1 - Work In Progress
+## [Part 1](/KiCad/BIT90_Original/) - Work In Progress
 The initial aim of the project is to recreate the original schematics in KiCad.<br>
 
 ## Part 2
