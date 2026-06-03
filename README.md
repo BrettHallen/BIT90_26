@@ -2,9 +2,9 @@
 An attempted recreation of the BIT90 computer released by Bit Corporation (普澤有限公司) in 1983 that is about [US$90,000 (AU$125,000) cheaper than a used one](https://web.archive.org/web/20260206154213/https://www.ebay.com/itm/127471879150):<br>
 - Z80 CPU
 - TMS9929A VDP
-- 2KB RAM (one TC5517/4016 SRAM)
+- 2KB RAM (one TC5517/4016 SRAM) expandable to 32KB (expansion cartridge)
 - 16KB VRAM (eight 4116 DRAM)
-- 16KB ROM (two 2732 + one 2764?)
+- 24KB ROM (two 2364 + one 2764 or a variation) containing BASIC & Colecovision firmware (?)
 - RF & composite video output
 - two joystick ports
 - Colecovision cartridge/tape compatible (2x15 pin)
