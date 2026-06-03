@@ -1,0 +1,159 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d65498c3-6385-4920-ac0f-4c76daf90780")
+	(paper "A4")
+	(title_block
+		(title "BIT90 (PAL) Computer")
+		(date "3/JUN/2026")
+		(rev "WIP")
+		(company "Brett Hallen")
+		(comment 4 "Based on original schematics from BIT Corporation")
+	)
+	(lib_symbols)
+	(text ">> WORK IN PROGRESS <<"
+		(exclude_from_sim no)
+		(at 224.79 175.514 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "df437b1c-d187-4ac9-938b-8705bd1fb99b")
+	)
+	(sheet
+		(at 21.59 160.02)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "57d0cf31-48ad-4efd-bf8b-4b09c92318f8")
+		(property "Sheetname" "Interfaces"
+			(at 21.59 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Interfaces.kicad_sch"
+			(at 21.59 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 21.59)
+		(size 24.13 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7004f5d0-9464-4578-a2ed-1d5ed8c6edba")
+		(property "Sheetname" "Keyboard"
+			(at 24.13 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Keyboard.kicad_sch"
+			(at 24.13 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 21.59)
+		(size 26.67 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4c67384-cc43-4b93-aeab-fb15189bac5d")
+		(property "Sheetname" "Power"
+			(at 55.88 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Power.kicad_sch"
+			(at 55.88 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
