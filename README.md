@@ -1,20 +1,31 @@
 # BIT90/26
 An attempted recreation of the HIT90 computer from 1983:<br>
 - Z80 CPU
-- TMS 9929A VDP
-- 16KB RAM (eight 4116 DRAM)
-- 2KB VRAM (one 4016 SRAM)
+- TMS9929A VDP
+- 2KB RAM (one TC5517/4016 SRAM)
+- 16KB VRAM (eight 4116 DRAM)
 - 16KB ROM (two 2732 + one 2764?)
+- RF & composite video output
 - two joystick ports
-- Colecovision cartridge/tape compatible
+- Colecovision cartridge/tape compatible (2x15 pin)
 - combination audio/video/tape port (DE9)
-- expansion edge connector
+- expansion edge connector (2x30 pin)
 - 5-pin DIN for power (±5V & +12V)
 
 Heavily relying on all the excellent information shared by [b3rendsh](https://github.com/b3rendsh) in their [BIT90 repository](https://github.com/b3rendsh/bit90).<br>
 
 ## [Part 1](/KiCad/BIT90_Original/) - Work In Progress
-The initial aim of the project is to recreate the original schematics in KiCad.<br>
+The initial aim of the project is to recreate the original schematics in KiCad:<br>
+- Sheet 6-1 (Processor): done
+- Sheet 6-2 (Video Control): pending
+- Sheet 6-3 (Joystick, Audio, Tape): pending
+- Sheet 6-4 (Keyboard): partially done
+- Sheet 6-5 (PAL Video Encoder): pending
+- Sheet 6-6 (Expansion): done
+- Sheet 7-5 (PAL Video Encoder/32K): pending
+- 32K DRAM (4416x4): pending
+
+Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?<br>
 
 ## Part 2
 The second part will be to try to create a modern replica as a single board computer with integrated keyboard.<br>
