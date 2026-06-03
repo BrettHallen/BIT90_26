@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "BIT90 Processor")
-		(date "3/JUN/2026")
+		(date "4/JUN/2026")
 		(rev "WIP")
 		(company "Brett Hallen")
 		(comment 3 "From Sheet 6-1")
@@ -4686,10 +4686,10 @@
 		)
 		(uuid "7f1fbc9c-37ad-48b2-9de9-42dffaf7e01d")
 	)
-	(text_box "Original ROMs\nU2 ... D32522B/MONITOR3 (2732)\nU3 ... 2764 EPROM \"2\"\nU4 ... D32351E/BIT-99C1 (2732)"
+	(text_box "Note!  Original board can have 2364 masked ROMs (24-pin), 2764 EPROMs (28-pins), or both.\nThere are three jumper blocks (J1/J2/J3) that configure each ROM socket.\nFor simplicity they are all represented as 2764 here.\n\nExample:\nU2 ... D32522B/MONITOR3 (2364)\nU3 ... EPROM \"2\" (2764)\nU4 ... D32351E/BIT-99C1 (2364)"
 		(exclude_from_sim no)
-		(at 229.87 90.17 0)
-		(size 36.83 10.16)
+		(at 218.44 90.17 0)
+		(size 59.69 22.86)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
