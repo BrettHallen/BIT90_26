@@ -3,11 +3,11 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "d65498c3-6385-4920-ac0f-4c76daf90780")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "BIT90 (PAL) Computer")
 		(date "3/JUN/2026")
-		(rev "WIP")
+		(rev "A")
 		(company "Brett Hallen")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
