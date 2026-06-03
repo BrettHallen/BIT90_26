@@ -16,16 +16,18 @@ An attempted recreation of the BIT90 computer released by Bit Corporation (æ™®æ¾
 
 Heavily relying on all the excellent information shared by [b3rendsh](https://github.com/b3rendsh) in their [BIT90 repository](https://github.com/b3rendsh/bit90).<br>
 
-## [Part 1](/KiCad/BIT90_Original/) - Work In Progress
+## [Part 1](/KiCad/BIT90_Original/) - Completed (enough)
 The initial aim of the project is to recreate the original schematics in KiCad:<br>
 - Sheet 6-1 (Processor): completed
 - Sheet 6-2 (Video Control): completed
 - Sheet 6-3 (Joystick, Audio, Tape): completed
 - Sheet 6-4 (Keyboard): completed
-- Sheet 6-5 (PAL Video Encoder): pending
+- Sheet 6-5 (PAL Video Encoder): partially completed
 - Sheet 6-6 (Expansion): completed
 - Sheet 7-5 (PAL Video Encoder/32K): pending
 - 32K DRAM (4416x4): pending
+
+The Video Encoder schematic isn't really relevant to my proposed re-design so haven't bothered completing them.<br>
 
 Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?<br>
 
@@ -41,4 +43,5 @@ The original ROMs have been dumped and can be found [here](https://forums.ataria
 You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](https://github.com/b3rendsh) work developing [BBX80](https://github.com/b3rendsh/bbx80).<br>
 
 ## Status
-- 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/).<br>
+- 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/)
+- 4/JUN/2026: Completed enough of the original schematic for a proposed redesign
