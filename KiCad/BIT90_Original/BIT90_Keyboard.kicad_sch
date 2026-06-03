@@ -6068,6 +6068,12 @@
 			(uuid "22a849dc-a49c-400e-9683-6acc7e0e4baf")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW33")
@@ -6136,6 +6142,12 @@
 			(uuid "fc81d60f-2b49-442e-b7c2-9d71dee0373e")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW35")
@@ -6204,6 +6216,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae30")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW4")
@@ -6272,6 +6290,12 @@
 			(uuid "0ba69aa2-bd39-4600-8890-06aae59528dd")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW30")
@@ -6340,6 +6364,12 @@
 			(uuid "abfa1d9a-a721-40d3-95d5-04b3c25629c2")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW62")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW62")
@@ -6408,6 +6438,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae31")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW3")
@@ -6476,6 +6512,12 @@
 			(uuid "e73d2a90-575a-4b77-8628-e77b0f177e3f")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW27")
@@ -6544,6 +6586,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae32")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW7")
@@ -6612,6 +6660,12 @@
 			(uuid "e7610817-dbb1-434f-82bb-ab3e30ee3d8e")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW13")
@@ -6680,6 +6734,12 @@
 			(uuid "cf5089a3-ee00-45f0-9e24-26651c523dbf")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW59")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW59")
@@ -6748,6 +6808,12 @@
 			(uuid "ed103388-b635-4c21-930c-a1b792aa660f")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW37")
@@ -6816,6 +6882,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae33")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW6")
@@ -6884,6 +6956,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae34")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW8")
@@ -6952,6 +7030,12 @@
 			(uuid "f1ea9d9a-0546-4ba9-b882-e0bac23cb9a6")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW15")
@@ -7020,6 +7104,12 @@
 			(uuid "1fb4d65e-b1bb-4a82-820a-386381b54ceb")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW34")
@@ -7088,6 +7178,12 @@
 			(uuid "1f6811d9-e54b-47be-9374-ba9b0988588b")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW23")
@@ -7156,6 +7252,12 @@
 			(uuid "4c1d40f5-3e79-4c93-a9ce-8e0f990cc270")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW21")
@@ -7224,6 +7326,12 @@
 			(uuid "ecc328e5-5a1a-499d-91a9-06a989019fe8")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW17")
@@ -7292,6 +7400,12 @@
 			(uuid "01fed621-730c-4b6f-9fc2-8aa344fd335c")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW49")
@@ -7360,6 +7474,12 @@
 			(uuid "1bd09e4d-918d-483a-b9d9-4cb013c80595")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW58")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW58")
@@ -7428,6 +7548,12 @@
 			(uuid "000f8269-de48-4026-9ff2-e7095c50b2b1")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW16")
@@ -7496,6 +7622,12 @@
 			(uuid "71f0f116-875e-4a18-b25b-851b160bd88f")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW28")
@@ -7564,6 +7696,12 @@
 			(uuid "74383ee9-aec7-4e49-a1cd-8a56babf65b1")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW22")
@@ -7632,6 +7770,12 @@
 			(uuid "5091c4cf-64d4-4c79-a5ed-4637e3aa46a1")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW44")
@@ -7700,6 +7844,12 @@
 			(uuid "ba997ff4-c0f8-4188-9f7a-79dfd613b7e8")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW51")
@@ -7768,6 +7918,12 @@
 			(uuid "87c899a5-45d5-4e8a-a4f3-ec12506e8c09")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW63")
@@ -7836,6 +7992,12 @@
 			(uuid "d40fb857-beb0-4d87-9761-dc2404c7a958")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW53")
@@ -7904,6 +8066,12 @@
 			(uuid "93b88c41-6413-47f9-9735-860a94e3cc51")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW61")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW61")
@@ -7972,6 +8140,12 @@
 			(uuid "0414dd2b-5ff8-48bb-b1b8-cb2ef43a5504")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW48")
@@ -8042,6 +8216,12 @@
 			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0c8")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "R6")
@@ -8106,12 +8286,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f5680c4-322b-4a30-a0e5-5349cec21d7c")
+			(uuid "6f5680c4-322b-4a30-a0e5-5349cec21d7d")
 		)
 		(pin "1"
-			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0c8")
+			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0c9")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "R5")
@@ -8236,6 +8422,12 @@
 			(uuid "5dc9ca8e-56e0-4f5a-908e-7e47f3ce82b3")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "U31")
@@ -8304,6 +8496,12 @@
 			(uuid "512c0264-b517-4f95-a892-cdc1229141ee")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW43")
@@ -8372,6 +8570,12 @@
 			(uuid "468e054d-d6a0-4fd8-98ad-6ab9c717d22c")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW20")
@@ -8440,6 +8644,12 @@
 			(uuid "8d3b5be6-06c5-4d70-b435-1a96170ab88c")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW46")
@@ -8508,6 +8718,12 @@
 			(uuid "0ee21f71-0c27-440a-921b-ccf8287b681e")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW18")
@@ -8576,6 +8792,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae35")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW5")
@@ -8644,6 +8866,12 @@
 			(uuid "8e5ba936-fed6-401e-8f3b-b52a591753c8")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW45")
@@ -8756,6 +8984,12 @@
 			(uuid "2db18a00-64d6-47fd-91ec-f5f84e324ff1")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "U32")
@@ -8824,6 +9058,12 @@
 			(uuid "d505521b-2229-4ece-a82a-0217d9f7861d")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW24")
@@ -8892,6 +9132,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae36")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW1")
@@ -8960,6 +9206,12 @@
 			(uuid "2e72f971-604b-4930-bc4c-2f3a698799f6")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW32")
@@ -9028,6 +9280,12 @@
 			(uuid "a6a9304f-27c6-4154-8996-ccbcd6bdfd01")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW29")
@@ -9096,6 +9354,12 @@
 			(uuid "a78cc838-3dc3-4b49-a2ce-37e04110e0cf")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW64")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW64")
@@ -9164,6 +9428,12 @@
 			(uuid "a6df867a-e29e-45d5-a664-50455b730d8c")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW11")
@@ -9232,6 +9502,12 @@
 			(uuid "8277d82e-771a-434a-8c8a-7a9b89aba585")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW42")
@@ -9300,6 +9576,12 @@
 			(uuid "fad4899a-9856-43e7-88cf-302b01b89419")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW26")
@@ -9368,6 +9650,12 @@
 			(uuid "f3246f27-cccb-4bdf-8bed-34a9d2c0c958")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW38")
@@ -9436,6 +9724,12 @@
 			(uuid "d8f57ed9-aef7-4362-b777-5e5c68c09d72")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW52")
@@ -9504,6 +9798,12 @@
 			(uuid "6db07526-22ae-44f7-b759-e0abc5f9642e")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW41")
@@ -9572,6 +9872,12 @@
 			(uuid "28bb2ae0-17b2-4da5-a22f-aa9f86015b62")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW47")
@@ -9684,6 +9990,12 @@
 			(uuid "79c3bc55-1e6f-4e9f-847d-197f27ba60cb")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "U30")
@@ -9752,6 +10064,12 @@
 			(uuid "6ab4a3d2-c41f-457e-8bd3-236cb357ae37")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW2")
@@ -9820,6 +10138,12 @@
 			(uuid "73546bde-eb9d-4a60-a8d5-325163888160")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW60")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW60")
@@ -9911,6 +10235,12 @@
 			(uuid "5c17e42e-ebff-47d6-963c-f2191c237855")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "RA?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "RA1")
@@ -9979,6 +10309,12 @@
 			(uuid "e7bcdc43-0e2c-4289-82df-181130e81343")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW9")
@@ -10047,6 +10383,12 @@
 			(uuid "9622bbd1-b90f-4d63-9b93-d005d23e5a9f")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW40")
@@ -10115,6 +10457,12 @@
 			(uuid "471f810a-1491-4bea-9f3f-c25f7ebf0422")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW54")
@@ -10183,6 +10531,12 @@
 			(uuid "d0a245aa-d236-4724-a919-5fe8e3b12002")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW50")
@@ -10251,6 +10605,12 @@
 			(uuid "d62e335c-396a-48f0-8391-5e09a8c04a0d")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW56")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW56")
@@ -10319,6 +10679,12 @@
 			(uuid "b4950e24-edb0-46bc-ac00-9369c8c0c096")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW57")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW57")
@@ -10387,6 +10753,12 @@
 			(uuid "8d30cd93-1cef-4cce-9307-d1e1a99e1656")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW55")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW55")
@@ -10455,6 +10827,12 @@
 			(uuid "2c7fa5b3-8c0a-4f5d-8081-238550abca0a")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW19")
@@ -10523,6 +10901,12 @@
 			(uuid "d08462b1-836b-4d69-ac9b-51b2e1bc9ea8")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW31")
@@ -10587,12 +10971,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "6f5680c4-322b-4a30-a0e5-5349cec21d7c")
+			(uuid "6f5680c4-322b-4a30-a0e5-5349cec21d7e")
 		)
 		(pin "1"
-			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0c8")
+			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0ca")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "R7")
@@ -10661,6 +11051,12 @@
 			(uuid "8848617b-8270-4a03-8ae6-fb2630e29be6")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW14")
@@ -10687,7 +11083,7 @@
 				)
 			)
 		)
-		(property "Value" "@"
+		(property "Value" "AT"
 			(at 73.66 115.57 0)
 			(effects
 				(font
@@ -10729,6 +11125,12 @@
 			(uuid "c2dd0686-e104-4ac1-aed1-d68ae2d97fab")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW36")
@@ -10799,6 +11201,12 @@
 			(uuid "792da307-f38d-4049-ad16-9d29d1d9dd6f")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "C14")
@@ -10867,6 +11275,12 @@
 			(uuid "4ee6806e-bb36-441d-8b07-70a4489beb77")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW12")
@@ -10935,6 +11349,12 @@
 			(uuid "f475e907-3d4d-4216-bc06-72e83ade71c5")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW39")
@@ -11003,6 +11423,12 @@
 			(uuid "57ec3e54-5b5e-415e-bb02-8e9138c70fce")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW25")
@@ -11071,6 +11497,12 @@
 			(uuid "11db6b7e-97b5-46e7-ae83-34d7267d802c")
 		)
 		(instances
+			(project "BIT90_Keyboard"
+				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "SW10")
@@ -11079,4 +11511,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
