@@ -34,5 +34,8 @@ The second part will be to try to create a modern replica as a single board comp
 
 This will include changes like replacing the original DRAM with modern SRAM which, in turn, should mean we can get rid of the original tri-voltage power supply requirement with a single 5V supply.<br>
 
+## ROMs
+The original ROMs have been dumped and can be found [here](https://forums.atariage.com/topic/296435-bit-90-computer-roms-finally-dumped/).<br>
+
 ## Status
 - 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/).<br>
