@@ -1,5 +1,5 @@
 # BIT90/26
-An attempted recreation of the BIT90 computer released by Bit Corporation (普澤有限公司) in 1983 that is about [US$90,000 cheaper than a used one](https://web.archive.org/web/20260206154213/https://www.ebay.com/itm/127471879150):<br>
+An attempted recreation of the BIT90 computer released by Bit Corporation (普澤有限公司) in 1983 that is about [US$90,000 (AU$125,000) cheaper than a used one](https://web.archive.org/web/20260206154213/https://www.ebay.com/itm/127471879150):<br>
 - Z80 CPU
 - TMS9929A VDP
 - 2KB RAM (one TC5517/4016 SRAM)
@@ -36,6 +36,9 @@ This will include changes like replacing the original DRAM with modern SRAM whic
 
 ## ROMs
 The original ROMs have been dumped and can be found [here](https://forums.atariage.com/topic/296435-bit-90-computer-roms-finally-dumped/).<br>
+
+## BBC Basic
+You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](https://github.com/b3rendsh) work developing [BBX80](https://github.com/b3rendsh/bbx80).<br>
 
 ## Status
 - 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/).<br>
