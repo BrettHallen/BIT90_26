@@ -3612,9 +3612,29 @@
 		)
 		(uuid "8791eaaa-89b2-4e88-92c8-30cfa3c332f7")
 	)
+	(text_box "Original schematic shows two signals each for TAPE DUMP and TAPE LOAD.\nAre these shorted together?"
+		(exclude_from_sim no)
+		(at 153.67 151.13 0)
+		(size 39.37 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5a7e8797-e868-4ce6-aa14-6d59db4e1f1b")
+	)
 	(text_box "Video Output: 75Ω load, 0-1V (white)\n\nAudio Output: 1.5Vp-p\n\nTape Load (EAR): 500mVp-p\nTape Dump (MIC): 90mVp-p"
 		(exclude_from_sim no)
-		(at 210.82 129.54 0)
+		(at 212.09 113.03 0)
 		(size 40.64 15.24)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3661,7 +3681,7 @@
 		(uuid "60f324aa-cbc4-4b27-a859-8edf442d2f39")
 	)
 	(no_connect
-		(at 190.5 135.89)
+		(at 182.88 127)
 		(uuid "685d95c7-31ac-4cb7-86ca-12726c040734")
 	)
 	(no_connect
@@ -3798,7 +3818,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 172.72 135.89 270)
+		(at 165.1 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3808,7 +3828,7 @@
 		)
 		(uuid "053b972a-5c7d-4880-8b92-b93bcd39ffba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 142.7457 90)
+			(at 165.1 133.8557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4302,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 182.88 135.89 270)
+		(at 175.26 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4292,7 +4312,7 @@
 		)
 		(uuid "29470089-5a24-4323-9fae-3ec70306dd2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 142.7457 90)
+			(at 175.26 133.8557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4610,7 @@
 	)
 	(global_label "SOUND OUT"
 		(shape output)
-		(at 177.8 135.89 270)
+		(at 170.18 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4600,7 +4620,7 @@
 		)
 		(uuid "4d720a6d-ab8e-48a3-b0af-c5bc4ab74267")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 149.9424 90)
+			(at 170.18 141.0524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +4808,7 @@
 	)
 	(global_label "VIDEO OUT"
 		(shape output)
-		(at 187.96 135.89 270)
+		(at 180.34 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4798,7 +4818,7 @@
 		)
 		(uuid "5cdd0390-a473-4b09-8035-e7623cf2355b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.96 148.9143 90)
+			(at 180.34 140.0243 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5006,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 185.42 135.89 270)
+		(at 177.8 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4996,7 +5016,7 @@
 		)
 		(uuid "691dd13a-1243-47b9-a9e5-830734b2ec84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 142.7457 90)
+			(at 177.8 133.8557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5138,7 @@
 	)
 	(global_label "TAPE LOAD (EAR)"
 		(shape output)
-		(at 180.34 135.89 270)
+		(at 172.72 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5128,7 +5148,7 @@
 		)
 		(uuid "722681a6-f027-4150-a768-bc2cd4592b90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 155.2038 90)
+			(at 172.72 146.3138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5512,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 175.26 135.89 270)
+		(at 167.64 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5502,7 +5522,7 @@
 		)
 		(uuid "95311edc-a9a5-44c9-a9e4-86364d72bd2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 142.7457 90)
+			(at 167.64 133.8557 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5908,7 @@
 	)
 	(global_label "TAPE DUMP (MIC)"
 		(shape input)
-		(at 170.18 135.89 270)
+		(at 162.56 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5898,7 +5918,7 @@
 		)
 		(uuid "bbe376dc-7f8a-4f0c-bac9-649cbd0f2964")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 155.6271 90)
+			(at 162.56 146.7371 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6700,7 @@
 	)
 	(symbol
 		(lib_id "Connector:DE9_Pins")
-		(at 180.34 128.27 90)
+		(at 172.72 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6689,7 +6709,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ed77beb-61eb-49c7-af8e-78c33a57aa0a")
 		(property "Reference" "TM3"
-			(at 180.34 119.38 90)
+			(at 172.72 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +6717,7 @@
 			)
 		)
 		(property "Value" "Tape/Audio/Video"
-			(at 180.34 121.92 90)
+			(at 172.72 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6705,7 +6725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 128.27 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 128.27 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6743,7 @@
 			)
 		)
 		(property "Description" "9-pin D-SUB connector, pins (male)"
-			(at 180.34 128.27 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

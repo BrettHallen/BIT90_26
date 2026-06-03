@@ -4666,10 +4666,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Original part specified as TC5517"
+	(text_box "2KB System RAM\nOriginal part specified as TC5517"
 		(exclude_from_sim no)
-		(at 176.53 105.41 0)
-		(size 15.24 7.62)
+		(at 203.2 149.86 0)
+		(size 35.56 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5199,6 +5199,165 @@
 			(type default)
 		)
 		(uuid "fdbfa773-60a9-4520-88c4-0f33de3ae783")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 20.32 20.32)
+		(row_heights 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "~{MO}"
+				(exclude_from_sim no)
+				(at 72.39 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d8154708-9d42-47b5-ab8e-4308d2593065")
+			)
+			(table_cell "Monitor"
+				(exclude_from_sim no)
+				(at 92.71 72.39 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c28cec9d-f55d-4277-98c2-b10112a80550")
+			)
+			(table_cell "~{BA1} & ~{BA2}"
+				(exclude_from_sim no)
+				(at 72.39 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d131aa7d-ccc6-4625-977f-3acefbbcf258")
+			)
+			(table_cell "BASIC"
+				(exclude_from_sim no)
+				(at 92.71 74.93 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "24cca99c-d32e-4e7f-9296-4017737fa074")
+			)
+			(table_cell "~{CS}"
+				(exclude_from_sim no)
+				(at 72.39 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d863aadc-d3f4-4dcc-9efb-63d277fef70a")
+			)
+			(table_cell "System RAM"
+				(exclude_from_sim no)
+				(at 92.71 77.47 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03c3ecae-161e-4dd4-93d8-41dc15473f87")
+			)
+			(table_cell "~{CAR1} to ~{CAR4}"
+				(exclude_from_sim no)
+				(at 72.39 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7de71b95-5196-4874-b9c1-205caffcec2a")
+			)
+			(table_cell "Cartridge"
+				(exclude_from_sim no)
+				(at 92.71 80.01 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d4b5e6e1-79d4-44b5-bb6d-c6a3bd95cce2")
+			)
+		)
 	)
 	(global_label "D4"
 		(shape output)
@@ -8214,6 +8373,28 @@
 			)
 		)
 	)
+	(global_label "~{CS}"
+		(shape input)
+		(at 204.47 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e462e2-8974-4323-a662-cc1d2a44d57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9347 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A11"
 		(shape input)
 		(at 219.71 58.42 180)
@@ -9762,46 +9943,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "9ce3e717-5e71-4ff6-8fb2-6545ee969e9d")
+			(uuid "9ce3e717-5e71-4ff6-8fb2-6545ee969e9e")
 		)
 		(pin "8"
-			(uuid "27d3e9f0-b4d6-4f0a-8ee4-009539e37047")
+			(uuid "27d3e9f0-b4d6-4f0a-8ee4-009539e37048")
 		)
 		(pin "4"
-			(uuid "ff4c4c7d-496e-49c6-b231-fbb7d01da7d5")
+			(uuid "ff4c4c7d-496e-49c6-b231-fbb7d01da7d6")
 		)
 		(pin "1"
-			(uuid "5bf4609a-a1cb-4ecd-813e-861dfbeccd57")
+			(uuid "5bf4609a-a1cb-4ecd-813e-861dfbeccd58")
 		)
 		(pin "2"
-			(uuid "3af39fc9-ff48-48de-86c6-5565b219eae1")
+			(uuid "3af39fc9-ff48-48de-86c6-5565b219eae2")
 		)
 		(pin "3"
-			(uuid "afe629a4-d744-4e80-8622-e07513d3c14f")
+			(uuid "afe629a4-d744-4e80-8622-e07513d3c150")
 		)
 		(pin "7"
-			(uuid "fa2e05c8-3bce-4757-8c25-33bd422cfbeb")
+			(uuid "fa2e05c8-3bce-4757-8c25-33bd422cfbec")
 		)
 		(pin "14"
-			(uuid "c10844b0-0506-4fb7-8801-ecb3e0208aa6")
+			(uuid "c10844b0-0506-4fb7-8801-ecb3e0208aa7")
 		)
 		(pin "11"
-			(uuid "0bab9500-7270-4a30-91ed-32edf02b1938")
+			(uuid "0bab9500-7270-4a30-91ed-32edf02b1939")
 		)
 		(pin "12"
-			(uuid "5f925530-57ae-4bd0-bc4f-81048fc6d462")
+			(uuid "5f925530-57ae-4bd0-bc4f-81048fc6d463")
 		)
 		(pin "13"
-			(uuid "94e9ea72-c8d9-41dd-b537-1f45b1f8e529")
+			(uuid "94e9ea72-c8d9-41dd-b537-1f45b1f8e52a")
 		)
 		(pin "5"
-			(uuid "0c9a6523-0268-4946-b859-c67dd9b09a3f")
+			(uuid "0c9a6523-0268-4946-b859-c67dd9b09a40")
 		)
 		(pin "9"
-			(uuid "6f026119-63a6-4da3-98b6-5b337aab47ac")
+			(uuid "6f026119-63a6-4da3-98b6-5b337aab47ad")
 		)
 		(pin "6"
-			(uuid "d9112e27-965f-4e18-864a-de6b27d02fe0")
+			(uuid "d9112e27-965f-4e18-864a-de6b27d02fe1")
 		)
 		(instances
 			(project "BIT90_Original"
@@ -10217,7 +10398,7 @@
 		(dnp no)
 		(uuid "68c21512-9d59-4d18-915f-bb8c9f36e7db")
 		(property "Reference" "R8"
-			(at 55.88 134.62 0)
+			(at 54.102 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10407,7 @@
 			)
 		)
 		(property "Value" "1KΩ"
-			(at 55.88 137.16 0)
+			(at 54.102 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
