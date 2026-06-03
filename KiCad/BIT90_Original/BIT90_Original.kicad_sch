@@ -9,7 +9,7 @@
 		(date "3/JUN/2026")
 		(rev "WIP")
 		(company "Brett Hallen")
-		(comment 4 "Based on original schematics from BIT Corporation")
+		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
 	(lib_symbols)
 	(text ">> WORK IN PROGRESS <<"
@@ -146,6 +146,48 @@
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 22.86)
+		(size 34.29 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6da56409-4549-4c33-b62a-a18ea3f2977f")
+		(property "Sheetname" "Video Encoder (PAL)"
+			(at 205.74 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BIT90_Video_Encoder_PAL.kicad_sch"
+			(at 205.74 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
+					(page "9")
 				)
 			)
 		)

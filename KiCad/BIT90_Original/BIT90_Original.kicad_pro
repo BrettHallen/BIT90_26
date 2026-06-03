@@ -440,6 +440,10 @@
     [
       "34ca744d-dd45-404c-a860-0ec9b26efacc",
       "Joystick, Audio, Tape Out"
+    ],
+    [
+      "6da56409-4549-4c33-b62a-a18ea3f2977f",
+      "Video Encoder (PAL)"
     ]
   ],
   "text_variables": {}

@@ -9,7 +9,7 @@
 		(date "3/JUN/2026")
 		(rev "WIP")
 		(company "Brett Hallen")
-		(comment 4 "Based on original schematics from BIT Corporation")
+		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
 	(lib_symbols
 		(symbol "Connector:DE9_Pins"
@@ -4127,7 +4127,7 @@
 		)
 	)
 	(global_label "EXTAD"
-		(shape input)
+		(shape output)
 		(at 36.83 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4523,7 +4523,7 @@
 		)
 	)
 	(global_label "EXTVE"
-		(shape input)
+		(shape output)
 		(at 39.37 135.89 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4588,7 +4588,7 @@
 			)
 		)
 	)
-	(global_label "AUDIO OUT"
+	(global_label "SOUND OUT"
 		(shape input)
 		(at 170.18 127 270)
 		(fields_autoplaced yes)
@@ -4600,7 +4600,7 @@
 		)
 		(uuid "4d720a6d-ab8e-48a3-b0af-c5bc4ab74267")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 140.2058 90)
+			(at 170.18 141.0524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5183,7 @@
 		)
 	)
 	(global_label "EXTV"
-		(shape input)
+		(shape output)
 		(at 41.91 135.89 270)
 		(fields_autoplaced yes)
 		(effects

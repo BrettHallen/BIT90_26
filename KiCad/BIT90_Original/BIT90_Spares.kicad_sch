@@ -7,7 +7,7 @@
 	(title_block
 		(rev "WIP")
 		(company "Brett Hallen")
-		(comment 4 "Based on original schematics from BIT Corporation")
+		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS00"
