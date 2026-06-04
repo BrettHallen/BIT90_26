@@ -31,10 +31,16 @@ The Video Encoder schematic isn't really relevant to my proposed re-design so ha
 
 Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?<br>
 
-## Part 2
+## Part 2 - Started
 The second part will be to try to create a modern replica as a single board computer with integrated keyboard.<br>
 
 This will include changes like replacing the original DRAM with modern SRAM which, in turn, should mean we can get rid of the original tri-voltage power supply requirement with a single 5V supply.<br>
+
+## Keyboard
+Recreation of the original keyboard layout.<br>
+Designed with [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/) which generates a JOSN file that can be used to generate a template for the key switches with [Plate & Case Builder](http://builder.swillkb.com).<br>
+
+![Keyboard layout](/Keyboard/bit90-keyboard.png)
 
 ## ROMs
 The original ROMs have been dumped and can be found [here](https://forums.atariage.com/topic/296435-bit-90-computer-roms-finally-dumped/).<br>
