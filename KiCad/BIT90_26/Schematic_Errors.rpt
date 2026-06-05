@@ -1,0 +1,43 @@
+ERC report (2026-06-05T22:27:42+1000, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(132.08 mm, 199.39 mm): Global Label 'DISIO'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(134.62 mm, 212.09 mm): Global Label 'EXTVE'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(137.16 mm, 212.09 mm): Global Label 'EXTV'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(139.70 mm, 212.09 mm): Global Label '~{RS1}'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(182.88 mm, 212.09 mm): Global Label '~{INT}'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(195.58 mm, 212.09 mm): Global Label 'AUDIO_OUT'
+
+***** Sheet /Keyboard & Interfaces/
+
+***** Sheet /Power/
+
+***** Sheet /Processor/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(71.12 mm, 63.50 mm): Symbol U6 Pin 5 [E2, Input, Input low]
+
+***** Sheet /Audio & Video/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(285.75 mm, 130.81 mm): Symbol U1 Pin 16 [V_{CC}, Power input, Line]
+
+***** Sheet /Controllers/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(223.52 mm, 181.61 mm): Symbol U23 Pin 5 [Input, Line]
+
+ ** ERC messages: 9  Errors 3  Warnings 6
