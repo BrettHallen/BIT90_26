@@ -12,28 +12,6 @@
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
 	(lib_symbols)
-	(text_box ">> WORK IN PROGRESS <<\n\nOpen issues:\n\n[1] Audio clock - where from?  It looks to be labelled as AUDΦ (expansion pin 35 & SN76489 clock) but can't see it being generated?\n\n[2] Floating input on CTRL1 buffer, output connected to D7 ... ?"
-		(exclude_from_sim no)
-		(at 121.92 100.33 0)
-		(size 265.43 78.74)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify left top)
-		)
-		(uuid "da3b2def-26b2-4659-a439-41b5fc31f403")
-	)
 	(sheet
 		(at 88.9 21.59)
 		(size 25.4 35.56)

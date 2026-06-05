@@ -8813,16 +8813,6 @@
 		)
 		(uuid "861ef4e7-46fb-40ce-a754-0827d56b2532")
 	)
-	(label "VDPΦ"
-		(at 251.46 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87d911ec-bc3f-41a6-9fe5-b9a17db602b6")
-	)
 	(label "AD6"
 		(at 63.5 143.51 0)
 		(effects
@@ -9212,6 +9202,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9fee8a4-1cc3-4046-ac9e-29e017293c2d")
+	)
+	(label "VDPΦ"
+		(at 311.15 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc3cc0d1-0242-46c3-859a-e32cdc63d4bd")
 	)
 	(label "AD3"
 		(at 116.84 96.52 0)

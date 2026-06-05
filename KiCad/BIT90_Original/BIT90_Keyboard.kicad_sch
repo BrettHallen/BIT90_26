@@ -2296,6 +2296,26 @@
 		)
 		(uuid "65435cff-b6d0-4b94-8ac3-9fb1cda1d102")
 	)
+	(text_box "Henk notes R7 & C14 are not populated on his board"
+		(exclude_from_sim no)
+		(at 265.43 97.79 0)
+		(size 33.02 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f6e062a2-eaaf-4494-a7d3-dc2417f0b3f7")
+	)
 	(text_box "Keyboard Row Outputs\nTape Dump"
 		(exclude_from_sim no)
 		(at 227.33 22.86 0)
@@ -10528,12 +10548,6 @@
 			(uuid "111cb2da-e9ed-4c7a-97cd-21e0ab45c0ca")
 		)
 		(instances
-			(project "BIT90_Keyboard"
-				(path "/7e418cce-009e-4ade-ba67-658e9dd1b7f1"
-					(reference "R?")
-					(unit 1)
-				)
-			)
 			(project "BIT90_Original"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
 					(reference "R7")
