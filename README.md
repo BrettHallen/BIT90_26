@@ -31,7 +31,7 @@ The Video Encoder schematic isn't really relevant to my proposed re-design so ha
 
 Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?  This would be the ultimate aim, but let's see if we can get the initial 8KB system working.<br>
 
-## Part 2 - Started
+## Part 2 - Ongoing
 The second part will be to try to create a modern replica as a single board computer.<br>
 
 Ideally:
@@ -57,4 +57,5 @@ You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](
 
 ## Status
 - 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/)
-- 5/JUN/2026: Completed enough of the original schematic for a proposed redesign
+- 4/JUN/2026: Keyboard layout re-created & template generated
+- 5/JUN/2026: Initial redesign [(schematic)](/KiCad/BIT90_26/) completed, error checking/fixing to follow
