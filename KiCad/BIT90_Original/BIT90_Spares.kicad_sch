@@ -5,6 +5,7 @@
 	(uuid "26d0d58d-595c-4480-9499-b9d3634272c8")
 	(paper "A3")
 	(title_block
+		(date "5/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")

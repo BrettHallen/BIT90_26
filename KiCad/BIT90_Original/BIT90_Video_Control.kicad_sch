@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90 Video Control (PAL)")
-		(date "3/JUN/2026")
+		(date "5/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 3 "From Sheet 6-2")
@@ -4111,6 +4111,26 @@
 			(justify left top)
 		)
 		(uuid "1edc19d7-c740-44f1-96fa-95837a0ea170")
+	)
+	(text_box "CPUΦ = CPU clock\nVDPΦ = video clock\nRΦ = current-limited CPU clock to expansion\nEXTΦ = audio clock but from where?"
+		(exclude_from_sim no)
+		(at 328.93 207.01 0)
+		(size 50.8 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "38aa4ac6-df44-4d6c-85dd-6c5e2675e517")
 	)
 	(text_box "Unmarked on original schematic"
 		(exclude_from_sim no)

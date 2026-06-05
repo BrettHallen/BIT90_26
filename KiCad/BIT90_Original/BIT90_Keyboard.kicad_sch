@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90 Keyboard")
-		(date "4/JUN/2026")
+		(date "5/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 2 "[RST] is on Processor sheet")
@@ -2553,6 +2553,12 @@
 		(uuid "4c6d0fea-1bdf-4373-aae6-46b62db73f38")
 	)
 	(junction
+		(at 49.53 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4db0492c-e90a-4075-a33f-a1fdfbd17a93")
+	)
+	(junction
 		(at 127 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3362,6 +3368,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 182.88) (xy 34.29 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352af5a7-1a77-47b9-a9d9-fecaafd63bab")
+	)
+	(wire
+		(pts
 			(xy 49.53 173.99) (xy 66.04 173.99)
 		)
 		(stroke
@@ -4022,6 +4038,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 182.88) (xy 44.45 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e469c4-ea84-4e76-8e0b-58359a41f127")
+	)
+	(wire
+		(pts
 			(xy 77.47 110.49) (xy 77.47 125.73)
 		)
 		(stroke
@@ -4399,6 +4425,16 @@
 			(type default)
 		)
 		(uuid "d442f970-de12-4044-8ee3-7cc431ef0f35")
+	)
+	(wire
+		(pts
+			(xy 39.37 201.93) (xy 49.53 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44d5fbe-0d38-4c9a-98a1-e8155fa519eb")
 	)
 	(wire
 		(pts
@@ -8006,6 +8042,74 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
+		(at 36.83 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48bffcc9-c8b2-432a-85c8-417148465a55")
+		(property "Reference" "SW66"
+			(at 36.83 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_SHIFT"
+			(at 36.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 36.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4c36605-c49f-440d-b1c7-1180a5743519")
+		)
+		(pin "1"
+			(uuid "8a40464f-01d0-4df2-bd68-78a04b337ca5")
+		)
+		(instances
+			(project "BIT90_Original"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/7004f5d0-9464-4578-a2ed-1d5ed8c6edba"
+					(reference "SW66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
 		(at 113.03 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10635,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Value" "SHIFT"
+		(property "Value" "R_SHIFT"
 			(at 46.99 194.31 0)
 			(effects
 				(font

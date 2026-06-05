@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90 Interfaces")
-		(date "3/JUN/2026")
+		(date "5/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
@@ -3632,6 +3632,27 @@
 		)
 		(uuid "0f8d2c51-f154-4754-825b-ddf308eb0234")
 	)
+	(text_box "EXTΦ is marked as audio clock on CV schematics\nNo idea how it's generated on the BIT90 as I can't see it specifically noted."
+		(exclude_from_sim no)
+		(at 77.47 201.93 0)
+		(size 52.07 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left top)
+		)
+		(uuid "321c7169-95b7-4cc6-88fd-cc177a21f4b6")
+	)
 	(text_box "System Expansion (Edge Connector)"
 		(exclude_from_sim no)
 		(at 58.42 144.78 0)
@@ -3652,7 +3673,7 @@
 		)
 		(uuid "3d7689da-fce6-4443-b58b-995a652df796")
 	)
-	(text_box "Joysticks"
+	(text_box "Joysticks\nDoesn't match ColecoVision as far as I can tell"
 		(exclude_from_sim no)
 		(at 191.77 25.4 0)
 		(size 62.23 82.55)
@@ -3732,10 +3753,30 @@
 		)
 		(uuid "9adac37b-690a-4e6a-bf4d-f83676940d91")
 	)
-	(text_box "Original keyboard connector CN1 is two 9-pin Molex male connectors, pins numbered 1-18\n\nI am guessing at the connection between keyboard matrix (KI & KO) and actual connector pin ..."
+	(text_box "Pin 6 = EN_20 on CV\nOn BIT90 we have ~{BA2} instead"
 		(exclude_from_sim no)
-		(at 350.52 62.23 0)
-		(size 38.1 16.51)
+		(at 140.97 157.48 0)
+		(size 33.02 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ac321e48-f1c3-4e30-9a5e-754fb3f3cb4c")
+	)
+	(text_box "Original keyboard connector CN1 is two 9-pin Molex male connectors, pins numbered 1-18\n\nI am guessing at the connection between keyboard matrix (KI & KO) and actual connector pin ...\n\nNot relevant for recreation as keyboard will be intergratd to motherboard."
+		(exclude_from_sim no)
+		(at 354.33 59.69 0)
+		(size 38.1 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3777,7 +3818,7 @@
 		(uuid "e73fb311-4741-443e-bdd6-ab25bbca45a6")
 	)
 	(label "{Yes yes, the label directions are probably wrong & inconsistent, remind me later to sort out}"
-		(at 80.01 208.28 0)
+		(at 71.12 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3918,7 +3959,7 @@
 			)
 		)
 	)
-	(global_label "~{CAR2}"
+	(global_label "~{CAR2} (A0)"
 		(shape input)
 		(at 69.85 69.85 90)
 		(fields_autoplaced yes)
@@ -4050,7 +4091,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN6"
+	(global_label "CTRL2 PIN6"
 		(shape output)
 		(at 222.25 97.79 180)
 		(fields_autoplaced yes)
@@ -4116,7 +4157,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN2"
+	(global_label "CTRL1 PIN2"
 		(shape output)
 		(at 222.25 58.42 180)
 		(fields_autoplaced yes)
@@ -4314,7 +4355,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN1"
+	(global_label "CTRL2 PIN1"
 		(shape output)
 		(at 222.25 100.33 180)
 		(fields_autoplaced yes)
@@ -4424,7 +4465,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN7"
+	(global_label "CTRL2 PIN7"
 		(shape output)
 		(at 222.25 92.71 180)
 		(fields_autoplaced yes)
@@ -4512,7 +4553,7 @@
 			)
 		)
 	)
-	(global_label "JOY COMMON 1"
+	(global_label "CTRL COMMON 1"
 		(shape input)
 		(at 222.25 50.8 180)
 		(fields_autoplaced yes)
@@ -4578,7 +4619,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN7"
+	(global_label "CTRL1 PIN7"
 		(shape output)
 		(at 222.25 55.88 180)
 		(fields_autoplaced yes)
@@ -4732,7 +4773,7 @@
 			)
 		)
 	)
-	(global_label "JOY COMMON 1"
+	(global_label "CTRL COMMON 1"
 		(shape input)
 		(at 222.25 87.63 180)
 		(fields_autoplaced yes)
@@ -4997,7 +5038,7 @@
 		)
 	)
 	(global_label "EXTΦ"
-		(shape input)
+		(shape output)
 		(at 97.79 190.5 270)
 		(fields_autoplaced yes)
 		(effects
@@ -5018,7 +5059,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN4"
+	(global_label "CTRL1 PIN4"
 		(shape output)
 		(at 222.25 48.26 180)
 		(fields_autoplaced yes)
@@ -5238,7 +5279,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN4"
+	(global_label "CTRL2 PIN4"
 		(shape output)
 		(at 222.25 85.09 180)
 		(fields_autoplaced yes)
@@ -5370,7 +5411,7 @@
 			)
 		)
 	)
-	(global_label "JOY COMMON 2"
+	(global_label "CTRL COMMON 2"
 		(shape input)
 		(at 222.25 80.01 180)
 		(fields_autoplaced yes)
@@ -5656,7 +5697,7 @@
 			)
 		)
 	)
-	(global_label "JOY COMMON 2"
+	(global_label "CTRL COMMON 2"
 		(shape input)
 		(at 222.25 43.18 180)
 		(fields_autoplaced yes)
@@ -5678,7 +5719,7 @@
 			)
 		)
 	)
-	(global_label "~{MS4}"
+	(global_label "~{MS4} (40)"
 		(shape input)
 		(at 151.13 177.8 90)
 		(fields_autoplaced yes)
@@ -5766,7 +5807,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN2"
+	(global_label "CTRL2 PIN2"
 		(shape output)
 		(at 222.25 95.25 180)
 		(fields_autoplaced yes)
@@ -5810,7 +5851,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN6"
+	(global_label "CTRL1 PIN6"
 		(shape output)
 		(at 222.25 60.96 180)
 		(fields_autoplaced yes)
@@ -6074,7 +6115,7 @@
 			)
 		)
 	)
-	(global_label "JOY2 PIN3"
+	(global_label "CTRL2 PIN3"
 		(shape output)
 		(at 222.25 90.17 180)
 		(fields_autoplaced yes)
@@ -6184,7 +6225,7 @@
 			)
 		)
 	)
-	(global_label "~{CAR4}"
+	(global_label "~{CAR4} (E0)"
 		(shape input)
 		(at 62.23 82.55 270)
 		(fields_autoplaced yes)
@@ -6272,7 +6313,7 @@
 			)
 		)
 	)
-	(global_label "~{CAR3}"
+	(global_label "~{CAR3} (C0)"
 		(shape input)
 		(at 95.25 69.85 90)
 		(fields_autoplaced yes)
@@ -6360,7 +6401,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN1"
+	(global_label "CTRL1 PIN1"
 		(shape output)
 		(at 222.25 63.5 180)
 		(fields_autoplaced yes)
@@ -6404,7 +6445,7 @@
 			)
 		)
 	)
-	(global_label "JOY1 PIN3"
+	(global_label "CTRL1 PIN3"
 		(shape output)
 		(at 222.25 53.34 180)
 		(fields_autoplaced yes)
@@ -6514,7 +6555,7 @@
 			)
 		)
 	)
-	(global_label "~{CAR1}"
+	(global_label "~{CAR1} (80)"
 		(shape input)
 		(at 74.93 69.85 90)
 		(fields_autoplaced yes)
