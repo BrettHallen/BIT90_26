@@ -18,23 +18,30 @@ Heavily relying on all the excellent information shared by [b3rendsh](https://gi
 
 ## [Part 1](/KiCad/BIT90_Original/) - Completed (enough)
 The initial aim of the project is to recreate the original schematics in KiCad:<br>
-- Sheet 6-1 (Processor): completed
-- Sheet 6-2 (Video Control): completed
-- Sheet 6-3 (Joystick, Audio, Tape): completed
-- Sheet 6-4 (Keyboard): completed
-- Sheet 6-5 (PAL Video Encoder): partially completed
-- Sheet 6-6 (Expansion): completed
-- Sheet 7-5 (PAL Video Encoder/32K): pending
-- 32K DRAM (4416x4): pending
+- Sheet 6-1 (Processor): ✅ completed
+- Sheet 6-2 (Video Control): ✅ completed
+- Sheet 6-3 (Joystick, Audio, Tape): ✅ completed
+- Sheet 6-4 (Keyboard): ✅ completed
+- Sheet 6-5 (PAL Video Encoder): ❌ lost interest
+- Sheet 6-6 (Expansion): ✅ completed
+- Sheet 7-5 (PAL Video Encoder/32K): 🤔 pending
+- 32K DRAM (4416x4): 🤔 pending
 
 The Video Encoder schematic isn't really relevant to my proposed re-design so haven't bothered completing them.<br>
 
-Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?<br>
+Sheet 7-5 and the 32KB DRAM sheets appear to be for an updated system with 32KB of RAM?  This would be the ultimate aim, but let's see if we can get the initial 8KB system working.<br>
 
 ## Part 2 - Started
-The second part will be to try to create a modern replica as a single board computer with integrated keyboard.<br>
+The second part will be to try to create a modern replica as a single board computer.<br>
 
-This will include changes like replacing the original DRAM with modern SRAM which, in turn, should mean we can get rid of the original tri-voltage power supply requirement with a single 5V supply.<br>
+Ideally:
+- integrated keyboard
+- upgraded 8KB of RAM
+- replace VDP9929A & 16KB DRAM with a [Pico9918](https://github.com/visrealm/pico9918)
+- HDMI video output (thanks to the Pico9918)
+- replace tri-voltage ±5VDC & 12VDC power requirement with a single 5VDC via USB or 2.1mm socket
+
+The main hurdle would be sourcing the SN76489AN sound generator but I don't think this is ... currently (June 2026) ... too difficult. If you are wary of Chinese sellers, a reliable source of genuine parts is [Unicorn Electronics](https://unicornelectronics.com/IC/GENERATORS.html) in the US.  Grab yourself some EPROMs or exotic CPUs whilst you're there.<br>
 
 ## Keyboard
 Recreation of the original keyboard layout.<br>
@@ -50,4 +57,4 @@ You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](
 
 ## Status
 - 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/)
-- 4/JUN/2026: Completed enough of the original schematic for a proposed redesign
+- 5/JUN/2026: Completed enough of the original schematic for a proposed redesign
