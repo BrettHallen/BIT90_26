@@ -5103,23 +5103,26 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_SPST"
+			(property "Value" "LED"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -5145,8 +5148,312 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW67"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ON/OFF"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Clueless_Engineer:SW_400MSP1R6BLKM6QE"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5211,6 +5518,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 5.08)
+					(name "SPT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5521,6 +5846,12 @@
 		(uuid "c4e4f3b8-5a7d-4b3e-b4d2-00c7ab5de614")
 	)
 	(junction
+		(at 368.3 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c73c4c73-ebd6-4bf3-8b67-ccd2bf7380d3")
+	)
+	(junction
 		(at 171.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5655,6 +5986,16 @@
 			(type default)
 		)
 		(uuid "1c6891b2-28d8-4d92-9076-978b62455ff7")
+	)
+	(wire
+		(pts
+			(xy 378.46 46.99) (xy 368.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230bb701-219b-4074-b890-233b2020a933")
 	)
 	(wire
 		(pts
@@ -5898,6 +6239,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 38.1) (xy 368.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af24f6d4-3a47-4925-af1c-a7ac1b6355a0")
+	)
+	(wire
+		(pts
 			(xy 373.38 36.83) (xy 368.3 36.83)
 		)
 		(stroke
@@ -5935,6 +6286,16 @@
 			(type default)
 		)
 		(uuid "bbc7adcc-a3dd-49b9-b167-a5f558a66f3d")
+	)
+	(wire
+		(pts
+			(xy 368.3 46.99) (xy 368.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2de73b1-ae77-48ec-9e90-594308288774")
 	)
 	(wire
 		(pts
@@ -6005,6 +6366,16 @@
 			(type default)
 		)
 		(uuid "e1f9696a-46db-48ba-90ca-4d683d84775b")
+	)
+	(wire
+		(pts
+			(xy 388.62 46.99) (xy 386.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e67a63fd-c99a-4df7-8a21-def24a1f7ede")
 	)
 	(wire
 		(pts
@@ -6343,6 +6714,28 @@
 		(uuid "534b49c3-d42c-4465-b1b1-07b449620c6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.1243 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 360.68 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "574d5585-eaae-4aa2-8804-f9ce63164c52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 48.7657 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,6 +7119,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 388.62 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab6f0f3b-a727-44ae-9a59-22299811f79e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 395.4757 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 27.94 33.02 90)
@@ -7068,15 +7483,15 @@
 		(fields_autoplaced yes)
 		(uuid "0c86842d-ed61-4f48-8cfc-d9463ec52b69")
 		(property "Reference" "J8"
-			(at 314.9601 83.82 0)
+			(at 314.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Mean Well PSU"
-			(at 314.9601 86.36 0)
+		(property "Value" "Mean Well GP25A13A-R1B"
+			(at 314.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +7926,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_400MSP1R6BLKM6QE"
-			(at 363.22 36.83 0)
+			(at 363.22 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7944,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 363.22 36.83 0)
+			(at 363.22 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,6 +7957,9 @@
 		)
 		(pin "1"
 			(uuid "0da1993b-0439-4f20-a4fe-172622709263")
+		)
+		(pin "S"
+			(uuid "59b83566-a0b5-4308-86a7-bd0e0ca71564")
 		)
 		(instances
 			(project "BIT90_26"
@@ -10030,6 +10448,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 382.27 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd702d39-a12c-49ba-87ff-e2ca7959c339")
+		(property "Reference" "D7"
+			(at 383.8575 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "POWER"
+			(at 383.8575 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 382.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 382.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 382.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be1e9ad6-8e04-414e-9085-62bf3be9a859")
+		)
+		(pin "1"
+			(uuid "0ad2ea7b-6c14-498b-9e6c-c6157e81ea59")
+		)
+		(instances
+			(project "BIT90_26"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS32")
 		(at 35.56 252.73 0)
 		(unit 1)
@@ -10128,6 +10623,76 @@
 			(project "BIT90_26"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 368.3 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1bd9148-2068-4cc5-bdbd-580d8fb545f1")
+		(property "Reference" "R32"
+			(at 370.84 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 370.84 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 366.522 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 368.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "14f8b302-92a3-48fb-ae4e-1d4bd1c1f795")
+		)
+		(pin "1"
+			(uuid "002d62dc-f2c4-4236-b5be-1430d7cfbf5e")
+		)
+		(instances
+			(project "BIT90_26"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
+					(reference "R32")
 					(unit 1)
 				)
 			)
