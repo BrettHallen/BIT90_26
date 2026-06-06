@@ -50,7 +50,7 @@ Designed with [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/) 
 ![Keyboard layout](/Keyboard/bit90-keyboard.png)
 
 ## ROMs
-The original ROMs have been dumped and can be found [here](https://forums.atariage.com/topic/296435-bit-90-computer-roms-finally-dumped/).<br>
+The original ROMs (BASIC v3.0) have been dumped and can be found [here](https://forums.atariage.com/topic/296435-bit-90-computer-roms-finally-dumped/).<br>
 
 ## BBC Basic
 You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](https://github.com/b3rendsh) work developing [BBX80](https://github.com/b3rendsh/bbx80).<br>
