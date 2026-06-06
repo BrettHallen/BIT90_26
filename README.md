@@ -59,3 +59,4 @@ You can now also use a version of BBC Basic on the BIT90 thanks to [b3rendsh's](
 - 3/JUN/2026: Working on [Part 1](/KiCad/BIT90_Original/)
 - 4/JUN/2026: Keyboard layout re-created & template generated
 - 5/JUN/2026: Initial redesign [(schematic)](/KiCad/BIT90_26/) completed, error checking/fixing to follow
+- 6/JUN/2026: PCB layout started
