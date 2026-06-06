@@ -22,10 +22,10 @@ The initial aim of the project is to recreate the original schematics in KiCad:<
 - Sheet 6-2 (Video Control): ✅ completed
 - Sheet 6-3 (Joystick, Audio, Tape): ✅ completed
 - Sheet 6-4 (Keyboard): ✅ completed
-- Sheet 6-5 (PAL Video Encoder): ❌ lost interest
+- Sheet 6-5 (PAL Video Encoder): ❌ lost interest, using a Pico9918 so no point
 - Sheet 6-6 (Expansion): ✅ completed
-- Sheet 7-5 (PAL Video Encoder/32K): 🤔 pending
-- 32K DRAM (4416x4): 🤔 pending
+- Sheet 7-5 (PAL Video Encoder/32K): ❌ not needed for recreation
+- 32K DRAM (4416x4): 🤔 pending, if I can get the base model working
 
 The Video Encoder schematic isn't really relevant to my proposed re-design so haven't bothered completing them.<br>
 
