@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90 Video Encoder (PAL)")
-		(date "5/JUN/2026")
+		(date "6/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 3 "From Sheet 6-5")

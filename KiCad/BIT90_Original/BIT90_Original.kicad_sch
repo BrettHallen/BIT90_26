@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90 (PAL) Computer")
-		(date "5/JUN/2026")
+		(date "6/JUN/2026")
 		(rev "A")
 		(company "Brett Hallen")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
