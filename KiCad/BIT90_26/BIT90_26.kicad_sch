@@ -6,14 +6,14 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90/26 Computer")
-		(date "5/JUN/2026")
+		(date "6/JUN/2026")
 		(rev "WIP")
 		(company "Brett Hallen")
 		(comment 3 "Modern recreation of the BIT90")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
 	)
 	(lib_symbols)
-	(text ">> WORK IN PROGRESS <<"
+	(text ">> WORK IN PROGRESS <<\n>> PROTOTYPE <<"
 		(exclude_from_sim no)
 		(at 282.956 186.944 0)
 		(effects
