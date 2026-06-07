@@ -5140,6 +5140,16 @@
 		)
 		(uuid "37676f81-5311-47d0-88c7-0276f17dc2f1")
 	)
+	(label "CTRL_POLL"
+		(at 167.64 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8812fa27-304e-4493-8a58-593bbf9fa1ea")
+	)
 	(label "Y0"
 		(at 152.4 148.59 0)
 		(effects
