@@ -1,0 +1,213 @@
+(footprint "Pico9918_HDMI_Board"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6b94fca6-5a23-48af-9558-f4bad81104f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pico9918_HDMI_Board"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c60252b-2595-4fed-8472-dbc036a09685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc7808d-8170-4c40-862d-a44fa0df27b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a16370a2-2d8b-4ad3-a0b7-64c2888fe526")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17.275 23.81)
+		(end -17.275 6.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb217a4f-29bd-4919-927b-ab000e437f74")
+	)
+	(fp_line
+		(start -14.275 3.81)
+		(end 13.725 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21b554c4-2c16-48bb-8f27-9313d06954ab")
+	)
+	(fp_line
+		(start 13.725 26.81)
+		(end -14.275 26.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1bd333e-036a-4797-b6d3-e50545d491ff")
+	)
+	(fp_line
+		(start 16.725 6.81)
+		(end 16.725 23.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ab8c0e8-2182-4154-8fe1-b67813e6a9b1")
+	)
+	(fp_arc
+		(start -17.275 6.81)
+		(mid -16.39632 4.68868)
+		(end -14.275 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "461cf0bb-b927-4920-af84-5051dce27517")
+	)
+	(fp_arc
+		(start -14.275 26.81)
+		(mid -16.39632 25.93132)
+		(end -17.275 23.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d2257d79-112e-4264-b4e5-6fc705811611")
+	)
+	(fp_arc
+		(start 13.725 3.81)
+		(mid 15.84632 4.68868)
+		(end 16.725 6.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2896a16b-d539-4b13-aede-72c7d95db0f3")
+	)
+	(fp_arc
+		(start 16.725 23.81)
+		(mid 15.84632 25.93132)
+		(end 13.725 26.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c47247a-2024-42c1-89d4-ddd894be0e50")
+	)
+	(fp_circle
+		(center -12.34 8.255)
+		(end -9.14 8.255)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "50eeb7cc-58f3-4176-b99c-b5b00d58985c")
+	)
+	(fp_circle
+		(center -12.34 8.255)
+		(end -8.89 8.255)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8763492a-feb7-45e1-8270-be0035c3782f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b7b54ad-f179-4863-8289-5ccf63348f62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "HDMI for Pico9918"
+		(start -8.53 12.065)
+		(end 7.98 19.685)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "30c02894-6d75-4cad-8ec5-09376683dfeb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+	)
+	(pad "MP" thru_hole circle
+		(at -12.34 8.255)
+		(size 6.4 6.4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "3791d048-c29b-40ea-902a-51bfede18222")
+	)
+	(pad "MP" thru_hole circle
+		(at 12.374 8.255)
+		(size 6.4 6.4)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "8de8c2b4-f743-4e0b-9866-564b3c01dafa")
+	)
+	(embedded_fonts no)
+)
