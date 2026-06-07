@@ -43,6 +43,8 @@ Ideally:
 
 The main hurdle would be sourcing the SN76489AN sound generator but I don't think this is ... currently (June 2026) ... too difficult. If you are wary of Chinese sellers, a reliable source of genuine parts is [Unicorn Electronics](https://unicornelectronics.com/IC/GENERATORS.html) in the US.  Grab yourself some EPROMs or exotic CPUs whilst you're there.<br>
 
+![Prototype progress](/Images/BIT90_26_Prototype_1.png)
+
 ## Keyboard
 Recreation of the original keyboard layout.<br>
 Designed with [Keyboard Layout Editor](https://www.keyboard-layout-editor.com/) which generates a JOSN file that can be used to generate a template for the key switches with [Plate & Case Builder](http://builder.swillkb.com).<br>
