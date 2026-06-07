@@ -1,0 +1,349 @@
+(footprint "SJ335083ATR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SJ3-35083A-TR-1")
+	(tags "3.5mm stereo jack")
+	(property "Reference" "J**"
+		(at 3.6 -2.415 0)
+		(layer "F.SilkS")
+		(uuid "9f8c7002-f573-480d-af46-68f122412c33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SJ335083ATR"
+		(at 3.6 -2.415 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6c98bc14-01be-49ba-88e5-d966814269ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e698c899-0c42-4430-b86c-140b4c27e4f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11641fe0-c08f-429f-a228-a341835e9d33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.9 -5.05)
+		(end -4.9 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76c326b2-a1c8-4a27-a81f-d5aaf0aaeaea")
+	)
+	(fp_line
+		(start -4.9 -0.05)
+		(end -2.4 -0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c18fae-fc51-4944-a551-625dc7702689")
+	)
+	(fp_line
+		(start -2.4 -5.65)
+		(end -2.4 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71d7a24c-5d17-4fa9-9568-d017c8a72eca")
+	)
+	(fp_line
+		(start -2.4 -5.05)
+		(end -4.9 -5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fa5df3a-0e25-4e96-b75a-5f6bf1517aaf")
+	)
+	(fp_line
+		(start 0 -5.65)
+		(end -2.4 -5.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab6b8e23-5b7f-4d3c-9081-6f1fc10b4ed4")
+	)
+	(fp_line
+		(start 0 1.9)
+		(end 0 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64fc6a42-96d4-4ab8-9bca-4a9b41962a6b")
+	)
+	(fp_line
+		(start 0 2)
+		(end 0 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c126a40-d62f-4293-b47f-b99f8f2fe1f2")
+	)
+	(fp_line
+		(start 2.6 0.55)
+		(end 6.6 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fb18bc5-f73c-4ab8-96b7-fb72bf393e53")
+	)
+	(fp_line
+		(start 4.1 -5.65)
+		(end 12.1 -5.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd5346d5-77b8-47e7-b179-7410ddae95fa")
+	)
+	(fp_line
+		(start 12.1 -5.65)
+		(end 12.1 0.55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab5cd625-2569-448f-933a-fc44d764f1dd")
+	)
+	(fp_arc
+		(start 0 1.9)
+		(mid 0.05 1.95)
+		(end 0 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a896ec6-e970-4bc1-827f-332f8f7832c8")
+	)
+	(fp_arc
+		(start 0 2)
+		(mid -0.05 1.95)
+		(end 0 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1038794a-c3ee-4ca1-9653-66e282740ebe")
+	)
+	(fp_line
+		(start -5.9 -7.442)
+		(end 13.1 -7.442)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62da3535-64dd-49a5-a118-0fea91e5e601")
+	)
+	(fp_line
+		(start -5.9 2.612)
+		(end -5.9 -7.442)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4f69215-d9ca-41d7-99e1-ee29cdead4c6")
+	)
+	(fp_line
+		(start 13.1 -7.442)
+		(end 13.1 2.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "93af3892-e1fb-4f88-a8f3-3442c153e571")
+	)
+	(fp_line
+		(start 13.1 2.612)
+		(end -5.9 2.612)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52f7050a-8f86-47ac-998e-334664d9bde1")
+	)
+	(fp_line
+		(start -4.9 -5.05)
+		(end -4.9 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50b5f7b5-9f12-4397-9d82-905c331c4e43")
+	)
+	(fp_line
+		(start -4.9 -0.05)
+		(end -2.4 -0.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27bdf123-d766-4125-8dae-f13d34ce6301")
+	)
+	(fp_line
+		(start -2.4 -5.65)
+		(end 12.1 -5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7b8b443-5232-4596-8126-6e7fdb4dced8")
+	)
+	(fp_line
+		(start -2.4 -5.05)
+		(end -4.9 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c68889b2-aeee-44f2-98da-f7b6df4dda1b")
+	)
+	(fp_line
+		(start -2.4 0.55)
+		(end -2.4 -5.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9b836aa-d6b6-4e63-b89c-ea1b9661455c")
+	)
+	(fp_line
+		(start 12.1 -5.65)
+		(end 12.1 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccf3583c-835e-42c1-900d-682ab41f996c")
+	)
+	(fp_line
+		(start 12.1 0.55)
+		(end -2.4 0.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57fcac8e-56b7-491a-8c6d-a5389a9b39de")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.6 -2.415 0)
+		(layer "F.Fab")
+		(uuid "62a57f62-2c7c-4359-88d9-b51db7faeefe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 1.1 -2.55)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a7018a98-2c8f-4745-a0ae-1306478c454e")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.1 -2.55)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "66fb4025-33ff-40da-a82f-0aa2fa13eaee")
+	)
+	(pad "R" thru_hole circle
+		(at 1.9 -5.1)
+		(size 2.685 2.685)
+		(drill 1.79)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5028acc8-aeea-4586-985f-bc22a7978f56")
+	)
+	(pad "S" thru_hole rect
+		(at 0 0)
+		(size 2.415 2.415)
+		(drill 1.61)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d09fc465-7d87-483e-bf30-2fa026a15b73")
+	)
+	(pad "T" thru_hole circle
+		(at 9.3 0)
+		(size 3.225 3.225)
+		(drill 2.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b1cdc15-1f13-494a-a38e-bbbc657ed492")
+	)
+	(embedded_fonts no)
+	(model "/Users/brett/Library/CloudStorage/Dropbox/Kicad/LIB_SJ3-35083A-TR/SJ3-35083A-TR/3D/SJ3-35083A-TR.stp"
+		(offset
+			(xyz 12 2.5 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
