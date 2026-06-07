@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90/26 Computer - Audio & Video")
-		(date "6/JUN/2026")
-		(rev "WIP")
+		(date "7/JUN/2026")
+		(rev "PROTOTYPE")
 		(company "Brett Hallen")
 		(comment 3 "Modern recreation of the BIT90")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
@@ -1176,6 +1176,191 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Clueless_Engineer:Pico9918_HDMI_Board"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HDMI For Pico9918"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Clueless_Engineer:Pico9918_HDMI_Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pico9918_HDMI_Board_0_0"
+				(polyline
+					(pts
+						(xy -5.08 -10.16) (xy -5.08 -8.636) (xy -5.08 -9.398) (xy -3.175 -9.398) (xy -3.175 -8.636) (xy -3.175 -10.16)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -8.636) (xy -0.762 -8.636) (xy -0.508 -8.89) (xy -0.508 -9.906) (xy -0.762 -10.16)
+						(xy -2.413 -10.16) (xy -2.413 -9.398)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -10.16) (xy 3.048 -8.636)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pico9918_HDMI_Board_0_1"
+				(polyline
+					(pts
+						(xy -11.43 -20.32) (xy 13.97 -20.32) (xy 13.97 -16.51) (xy 11.43 -15.24) (xy 10.16 -12.7) (xy -7.62 -12.7)
+						(xy -8.89 -15.24) (xy -11.43 -16.51) (xy -11.43 -20.32)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -17.78) (xy -7.62 -16.51) (xy -5.08 -15.24) (xy 6.985 -15.24) (xy 9.525 -16.51) (xy 9.525 -17.78)
+						(xy -7.62 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -10.16) (xy 0.254 -8.636) (xy 1.27 -8.636) (xy 1.27 -10.16) (xy 1.27 -8.636) (xy 2.032 -8.636)
+						(xy 2.286 -8.89) (xy 2.286 -10.16)
+					)
+					(stroke
+						(width 0.635)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pico9918_HDMI_Board_1_1"
+				(text_box "Pico9918 HDMI Board"
+					(at -17.78 -2.54 0)
+					(size 38.1 -20.32)
+					(margins 1.016 1.016 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify top)
+					)
+				)
+				(pin passive line
+					(at -20.32 -12.7 0)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1855,7 +2040,7 @@
 	(text_box "Video Processor\nReplace original TMS9929A + 16KB DRAM with Pico9918\nReplace original composite video output with HDMI output"
 		(exclude_from_sim no)
 		(at 49.53 64.77 0)
-		(size 92.71 113.03)
+		(size 92.71 147.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2506,6 +2691,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 68.58 195.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b219dec-06fd-4a54-9e5d-890c861fca26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.7243 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D2"
 		(shape bidirectional)
 		(at 95.25 146.05 0)
@@ -2814,6 +3021,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 111.76 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f9cefad-a28c-4d13-8e02-13ed74b6f441")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6157 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{NMI}"
 		(shape output)
 		(at 72.39 158.75 180)
@@ -3079,6 +3308,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Clueless_Engineer:Pico9918_HDMI_Board")
+		(at 88.9 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09054135-fcd2-4820-887c-17db49086a60")
+		(property "Reference" "J13"
+			(at 90.17 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HDMI For Pico9918"
+			(at 90.17 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:Pico9918_HDMI_Board"
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "96f02dec-c786-4ec2-b58f-db2df7362859")
+		)
+		(pin "MP"
+			(uuid "72634218-7a6b-41d7-92fd-054236833ffe")
+		)
+		(instances
+			(project "BIT90_26_Prototype"
+				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 115.57 106.68 270)
 		(unit 1)
@@ -3106,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Clueless_Engineer:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 115.57 106.68 0)
 			(effects
 				(font
@@ -3158,7 +3455,7 @@
 			(uuid "fd11ed1d-9e4a-4f0b-9e8c-cc985da6129f")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "D1")
 					(unit 1)
@@ -3228,7 +3525,7 @@
 			(uuid "7414c212-8879-45ee-a93d-54d001fea244")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R1")
 					(unit 1)
@@ -3296,7 +3593,7 @@
 			(uuid "939c6e96-abf8-41eb-b3cc-c17d457a00fb")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R2")
 					(unit 1)
@@ -3365,7 +3662,7 @@
 			(uuid "431928f1-9f63-4ceb-8eaa-2fca0d2f378d")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R6")
 					(unit 1)
@@ -3435,7 +3732,7 @@
 			(uuid "55ab6eeb-effb-45f6-ad16-42825c57ebff")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "C4")
 					(unit 1)
@@ -3547,7 +3844,7 @@
 			(uuid "3cea2ea9-ab19-4046-b9b5-9751e365dde1")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "U6")
 					(unit 1)
@@ -3616,7 +3913,7 @@
 			(uuid "2d95e9ff-b542-4c72-a0f3-5648c41ef2a5")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R3")
 					(unit 1)
@@ -3800,7 +4097,7 @@
 			(uuid "3c4716e4-2528-4da4-a978-0591e012d1a7")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "U16")
 					(unit 1)
@@ -3870,7 +4167,7 @@
 			(uuid "1b7fad1f-27fb-4b67-a6f3-8e213a8ee960")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R9")
 					(unit 1)
@@ -3940,7 +4237,7 @@
 			(uuid "5b9068b3-0ec4-498a-9534-b0fec8c754fc")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R5")
 					(unit 1)
@@ -4038,7 +4335,7 @@
 			(uuid "5c929a10-21ae-4a2f-9245-10df0309f836")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "Q1")
 					(unit 1)
@@ -4108,7 +4405,7 @@
 			(uuid "242edc08-693e-4d95-bca1-ce09e63ad2ee")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R4")
 					(unit 1)
@@ -4178,7 +4475,7 @@
 			(uuid "262e5ec5-dc9d-4723-bf0b-5b17eaa98cad")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "R10")
 					(unit 1)
@@ -4194,10 +4491,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e85c817a-dd22-44e6-a360-51207fee57ba")
 		(property "Reference" "C1"
-			(at 254 90.1699 0)
+			(at 244.094 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,8 +4501,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 254 92.7099 0)
+		(property "Value" "1nF (102)"
+			(at 237.998 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4544,7 @@
 			(uuid "aa20f249-4243-4cfc-8065-2f98ef461d48")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/a2197f6c-13b4-44bf-8904-5835f7bd7927"
 					(reference "C1")
 					(unit 1)

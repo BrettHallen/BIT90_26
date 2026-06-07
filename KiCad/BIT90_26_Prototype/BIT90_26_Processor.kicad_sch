@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90/26 Computer - Processor")
-		(date "6/JUN/2026")
-		(rev "WIP")
+		(date "7/JUN/2026")
+		(rev "PROTOTYPE")
 		(company "Brett Hallen")
 		(comment 3 "Modern recreation of the BIT90")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
@@ -6684,20 +6684,12 @@
 		(uuid "ff9b34e1-9313-4f49-9237-06ddb022b3db")
 	)
 	(no_connect
-		(at 116.84 248.92)
-		(uuid "6caa641f-5e74-45d5-969c-f69559414673")
-	)
-	(no_connect
 		(at 147.32 242.57)
 		(uuid "6f8817b8-6a4c-424d-800d-d9bfc42248dd")
 	)
 	(no_connect
 		(at 102.87 243.84)
 		(uuid "99acc8ae-7f30-4507-a544-53288ddd4b2f")
-	)
-	(no_connect
-		(at 95.25 248.92)
-		(uuid "c45bb15d-200c-4720-b8c6-a894783de67b")
 	)
 	(wire
 		(pts
@@ -10574,6 +10566,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 116.84 248.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86bb1148-22df-450d-9d1d-2bbbce38b428")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 255.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D3"
 		(shape bidirectional)
 		(at 74.93 139.7 0)
@@ -12312,6 +12326,28 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 95.25 248.92 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7306bc3-362b-4b38-b492-f209ebff73a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 255.7757 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D6"
 		(shape output)
 		(at 303.53 54.61 0)
@@ -12503,7 +12539,7 @@
 			(uuid "befce8ba-075e-4032-9dd0-b8b32e8e5de2")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "C5")
 					(unit 1)
@@ -12572,7 +12608,7 @@
 			(uuid "4b853e93-c0b4-4cb2-96bc-6466c954fb0d")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R17")
 					(unit 1)
@@ -12720,7 +12756,7 @@
 			(uuid "12779a78-7b04-4c65-9db1-6b460c691853")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U4")
 					(unit 1)
@@ -12789,7 +12825,7 @@
 			(uuid "bb80aabe-b45b-4587-8516-a2e858822e70")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R12")
 					(unit 1)
@@ -12893,7 +12929,7 @@
 			(uuid "c2420718-0bfb-4321-b604-578c1e5a0477")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U15")
 					(unit 2)
@@ -13041,7 +13077,7 @@
 			(uuid "627bf44d-8d02-4a2f-bf2a-6f74a9ce7099")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U1")
 					(unit 1)
@@ -13145,7 +13181,7 @@
 			(uuid "6e6588fc-2d2c-48d0-8533-006d142777e7")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U8")
 					(unit 3)
@@ -13249,7 +13285,7 @@
 			(uuid "c2420718-0bfb-4321-b604-578c1e5a0478")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U15")
 					(unit 1)
@@ -13320,7 +13356,7 @@
 			(uuid "10078b64-7d15-4c37-84ea-9565e488858f")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R22")
 					(unit 1)
@@ -13426,7 +13462,7 @@
 			(uuid "65372d3b-908e-4721-8a32-dafcbb89fb87")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U7")
 					(unit 1)
@@ -13496,7 +13532,7 @@
 			(uuid "10078b64-7d15-4c37-84ea-9565e4888590")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R23")
 					(unit 1)
@@ -13644,7 +13680,7 @@
 			(uuid "12779a78-7b04-4c65-9db1-6b460c691854")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U3")
 					(unit 1)
@@ -13714,7 +13750,7 @@
 			(uuid "1b7fad1f-27fb-4b67-a6f3-8e213a8ee95f")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R15")
 					(unit 1)
@@ -13784,7 +13820,7 @@
 			(uuid "d08b6c5c-67f9-4914-b9a5-3e92ac693453")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "SW1")
 					(unit 1)
@@ -13888,7 +13924,7 @@
 			(uuid "08a51514-430d-4eb8-8f55-7487266b4eed")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U14")
 					(unit 2)
@@ -13958,7 +13994,7 @@
 			(uuid "3bd3706d-383c-4137-8517-680be87fbc40")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R30")
 					(unit 1)
@@ -14028,7 +14064,7 @@
 			(uuid "4b853e93-c0b4-4cb2-96bc-6466c954fb0e")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R18")
 					(unit 1)
@@ -14102,7 +14138,7 @@
 			(uuid "b6d0f9bd-1ffd-45ab-adb4-22dfe28929a9")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "SW68")
 					(unit 1)
@@ -14171,7 +14207,7 @@
 			(uuid "ebb01715-8907-4095-8c17-d6e0edd246c5")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R20")
 					(unit 1)
@@ -14238,7 +14274,7 @@
 			(uuid "c876683f-e2a1-42cc-a774-4c5a8435791a")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "C6")
 					(unit 1)
@@ -14350,7 +14386,7 @@
 			(uuid "528222f9-aa5a-4c89-98d1-e20e50ee1e91")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U11")
 					(unit 1)
@@ -14454,7 +14490,7 @@
 			(uuid "66fe5ecf-14c1-45a6-b100-90f6a3aba43d")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U10")
 					(unit 1)
@@ -14560,7 +14596,7 @@
 			(uuid "65372d3b-908e-4721-8a32-dafcbb89fb88")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U7")
 					(unit 2)
@@ -14597,7 +14633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Clueless_Engineer:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 298.45 210.82 0)
 			(effects
 				(font
@@ -14649,7 +14685,7 @@
 			(uuid "45b5d0c6-fced-4bcf-ae2e-a480c8fa82cd")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "D3")
 					(unit 1)
@@ -14718,7 +14754,7 @@
 			(uuid "bb80aabe-b45b-4587-8516-a2e858822e71")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R14")
 					(unit 1)
@@ -14789,7 +14825,7 @@
 			(uuid "10078b64-7d15-4c37-84ea-9565e4888591")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R24")
 					(unit 1)
@@ -14893,7 +14929,7 @@
 			(uuid "0ff9c807-9c40-40cc-8cf4-dcb23d3f5ff9")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U8")
 					(unit 2)
@@ -14929,7 +14965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Clueless_Engineer:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 304.8 165.1 0)
 			(effects
 				(font
@@ -14981,7 +15017,7 @@
 			(uuid "19ff4139-d86f-4393-9a17-bb379e68a353")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "D2")
 					(unit 1)
@@ -15049,7 +15085,7 @@
 			(uuid "9370d85e-6253-4528-ab65-88469cdc68c9")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "Y1")
 					(unit 1)
@@ -15120,7 +15156,7 @@
 			(uuid "10078b64-7d15-4c37-84ea-9565e4888592")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R21")
 					(unit 1)
@@ -15191,7 +15227,7 @@
 			(uuid "fb46163c-e605-42c8-bd35-33b48ac42c78")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "C8")
 					(unit 1)
@@ -15375,7 +15411,7 @@
 			(uuid "27767232-e577-4db5-9f06-baa1019f6457")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U5")
 					(unit 1)
@@ -15444,7 +15480,7 @@
 			(uuid "bb80aabe-b45b-4587-8516-a2e858822e72")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R13")
 					(unit 1)
@@ -15511,7 +15547,7 @@
 			(uuid "27d2ab92-76d6-4bff-aecf-50810f25794f")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "C7")
 					(unit 1)
@@ -15615,7 +15651,7 @@
 			(uuid "08a51514-430d-4eb8-8f55-7487266b4eef")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U14")
 					(unit 3)
@@ -15719,7 +15755,7 @@
 			(uuid "6e6588fc-2d2c-48d0-8533-006d142777e8")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U8")
 					(unit 4)
@@ -15787,7 +15823,7 @@
 			(uuid "bb80aabe-b45b-4587-8516-a2e858822e73")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R11")
 					(unit 1)
@@ -15855,7 +15891,7 @@
 			(uuid "1d968b26-77bd-40fe-afb0-fef77313336c")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R16")
 					(unit 1)
@@ -15925,7 +15961,7 @@
 			(uuid "fb46163c-e605-42c8-bd35-33b48ac42c79")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "C9")
 					(unit 1)
@@ -15962,7 +15998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Clueless_Engineer:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 334.01 207.01 0)
 			(effects
 				(font
@@ -16014,7 +16050,7 @@
 			(uuid "45b5d0c6-fced-4bcf-ae2e-a480c8fa82ce")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "D4")
 					(unit 1)
@@ -16084,7 +16120,7 @@
 			(uuid "3bd3706d-383c-4137-8517-680be87fbc41")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R31")
 					(unit 1)
@@ -16187,7 +16223,7 @@
 			(uuid "08a51514-430d-4eb8-8f55-7487266b4eee")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U14")
 					(unit 1)
@@ -16266,7 +16302,7 @@
 			(uuid "0f8c85b7-1fd0-4ecb-8eae-0fad760beec3")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "J11")
 					(unit 1)
@@ -16336,7 +16372,7 @@
 			(uuid "bbdcecc3-212f-4576-b38c-9117d1307471")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "R19")
 					(unit 1)
@@ -16484,7 +16520,7 @@
 			(uuid "12779a78-7b04-4c65-9db1-6b460c691855")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U2")
 					(unit 1)
@@ -16588,7 +16624,7 @@
 			(uuid "66fe5ecf-14c1-45a6-b100-90f6a3aba43e")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/e0d773d2-3af5-4238-9cc2-92899811e501"
 					(reference "U10")
 					(unit 2)

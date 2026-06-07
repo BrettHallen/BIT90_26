@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90/26 Computer")
-		(date "6/JUN/2026")
-		(rev "WIP")
+		(date "7/JUN/2026")
+		(rev "PROTOTYPE")
 		(company "Brett Hallen")
 		(comment 3 "Modern recreation of the BIT90")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
@@ -60,7 +60,7 @@
 			)
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "2")
 				)
@@ -102,7 +102,7 @@
 			)
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "3")
 				)
@@ -144,7 +144,7 @@
 			)
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "5")
 				)
@@ -186,7 +186,7 @@
 			)
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "6")
 				)
@@ -228,7 +228,7 @@
 			)
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780"
 					(page "4")
 				)

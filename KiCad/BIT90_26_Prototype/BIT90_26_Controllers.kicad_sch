@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "BIT90/26 Computer - Controllers")
-		(date "6/JUN/2026")
-		(rev "WIP")
+		(date "7/JUN/2026")
+		(rev "PROTOTYPE")
 		(company "Brett Hallen")
 		(comment 3 "Modern recreation of the BIT90")
 		(comment 4 "Based on original schematics from BIT Corporation (普澤有限公司)")
@@ -6286,7 +6286,7 @@
 			(uuid "fc1ac0ba-b104-4233-a128-78bd243c3966")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U13")
 					(unit 1)
@@ -6374,7 +6374,7 @@
 			(uuid "48602627-2dfd-42cc-8191-cc66b9d659b4")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "RN3")
 					(unit 1)
@@ -6498,7 +6498,7 @@
 			(uuid "2f115691-f98f-4dab-9d9d-3dee93a45be2")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U33")
 					(unit 1)
@@ -6589,7 +6589,7 @@
 			(uuid "75a9b852-aefd-4bd4-8145-2c6b6866d6ce")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "RN2")
 					(unit 1)
@@ -6693,7 +6693,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388e7")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U9")
 					(unit 1)
@@ -6797,7 +6797,7 @@
 			(uuid "08a51514-430d-4eb8-8f55-7487266b4eee")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U14")
 					(unit 4)
@@ -6901,7 +6901,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388e8")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U12")
 					(unit 2)
@@ -7005,7 +7005,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388e9")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U9")
 					(unit 2)
@@ -7109,7 +7109,7 @@
 			(uuid "66fe5ecf-14c1-45a6-b100-90f6a3aba43f")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U10")
 					(unit 5)
@@ -7232,7 +7232,7 @@
 			(uuid "2f115691-f98f-4dab-9d9d-3dee93a45be3")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U34")
 					(unit 1)
@@ -7302,7 +7302,7 @@
 			(uuid "2304cf48-5430-4945-9c5e-1fac21048714")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "R8")
 					(unit 1)
@@ -7406,7 +7406,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388ea")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U9")
 					(unit 3)
@@ -7509,7 +7509,7 @@
 			(uuid "8fea7d44-5543-4354-9664-67f5ff0bf5bc")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U10")
 					(unit 6)
@@ -7613,7 +7613,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388eb")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U9")
 					(unit 4)
@@ -7717,7 +7717,7 @@
 			(uuid "486db180-bf39-4aa5-94ed-9754657388ec")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U12")
 					(unit 4)
@@ -7787,7 +7787,7 @@
 			(uuid "2304cf48-5430-4945-9c5e-1fac21048715")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "R7")
 					(unit 1)
@@ -7891,7 +7891,7 @@
 			(uuid "66fe5ecf-14c1-45a6-b100-90f6a3aba43e")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U10")
 					(unit 4)
@@ -7995,7 +7995,7 @@
 			(uuid "66fe5ecf-14c1-45a6-b100-90f6a3aba43d")
 		)
 		(instances
-			(project "BIT90_26"
+			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/c73c188f-a22e-474c-afc5-9bf016a71da0"
 					(reference "U10")
 					(unit 3)
