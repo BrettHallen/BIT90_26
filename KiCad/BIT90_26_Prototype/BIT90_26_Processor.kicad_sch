@@ -6463,7 +6463,27 @@
 		)
 		(uuid "9f44d237-c7df-4230-8464-7536a71c0d9c")
 	)
-	(text_box "CPUΦ = CPU clock\nVDPΦ = video clock\nAUDΦ = audio clock (called EXTΦ on BIT90)\nRΦ = current-limited CPU clock to expansion"
+	(text_box "~{MO} & ~{BA1} BEHAVIOUR\nA13 = H\nA14 = H\nA15 = H\n\n~{MO} ASSERTS WHEN A3 = L\n~{BA1} ASSERTS WHEN A3 = H\n\nY1 IS STROBE"
+		(exclude_from_sim no)
+		(at 176.53 50.8 0)
+		(size 30.48 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bedefee3-2c1d-4f63-bee1-ebdecd1a33c2")
+	)
+	(text_box "CPUΦ = CPU clock (3.57MHz)\nVDPΦ = video clock (10.73864MHz)\nAUDΦ = audio clock (called EXTΦ on BIT90)\nRΦ = current-limited CPU clock to expansion"
 		(exclude_from_sim no)
 		(at 154.94 251.46 0)
 		(size 50.8 10.16)

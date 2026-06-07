@@ -5666,12 +5666,6 @@
 		(uuid "ebbc8e60-abff-41cd-bb7d-69cbb6e7a984")
 	)
 	(junction
-		(at 48.26 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099fb789-5941-4a4e-bc76-a94c755545fa")
-	)
-	(junction
 		(at 152.4 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5760,12 +5754,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d29ae78-b4f9-4e3c-92b3-fae45123bed3")
-	)
-	(junction
-		(at 48.26 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77f96faa-bd07-4d98-a17e-2270e4001b2b")
 	)
 	(junction
 		(at 190.5 102.87)
@@ -5919,16 +5907,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 66.04 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f497f6-450d-4df7-a149-ad98594e6087")
-	)
-	(wire
-		(pts
 			(xy 93.98 88.9) (xy 113.03 88.9)
 		)
 		(stroke
@@ -5966,16 +5944,6 @@
 			(type default)
 		)
 		(uuid "16c0a374-3cec-417d-a6a9-5e89b7d645ac")
-	)
-	(wire
-		(pts
-			(xy 48.26 80.01) (xy 66.04 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4996ca-bf74-4c11-8a97-aa85d17a733d")
 	)
 	(wire
 		(pts
@@ -6316,16 +6284,6 @@
 			(type default)
 		)
 		(uuid "d5c9fb49-3287-43c1-90cd-d9ee5e3e574c")
-	)
-	(wire
-		(pts
-			(xy 36.83 95.25) (xy 53.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8798565-5f19-4e8f-9135-3285ac40ccef")
 	)
 	(wire
 		(pts
@@ -7011,28 +6969,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 36.83 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99ff9095-17eb-4bb5-ac69-eadec29158c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 109.7257 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 110.49 55.88 270)
 		(fields_autoplaced yes)
 		(effects
@@ -7209,7 +7145,7 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 45.72 95.25 90)
+		(at 53.34 95.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7219,7 +7155,7 @@
 		)
 		(uuid "bd20e0f9-6362-41de-9dbe-2ab832f99606")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 88.3943 90)
+			(at 53.34 88.3943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9397,76 +9333,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 36.83 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f80173c-19d9-4b04-990d-6318f46f8b2b")
-		(property "Reference" "C2"
-			(at 40.64 96.9009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF/16V"
-			(at 40.64 99.4409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 37.7952 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 36.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51750c6e-292c-4919-8b63-9bbbb5242cb2")
-		)
-		(pin "1"
-			(uuid "8a3e45f6-b648-4f9b-9caf-e31deb19af1d")
-		)
-		(instances
-			(project "BIT90_26_Prototype"
-				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
 		(at 30.48 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11160,76 +11026,6 @@
 			(project "BIT90_26_Prototype"
 				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 66.04 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc9c2b95-9006-4fc3-9ff3-4600282bacfb")
-		(property "Reference" "C35"
-			(at 69.85 74.0409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF/16V"
-			(at 69.85 76.5809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 67.0052 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 66.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64f60e35-a754-452b-81f9-7aeefa200d12")
-		)
-		(pin "2"
-			(uuid "de5d7759-c7b4-4e5a-b25c-ff07b1cfccd2")
-		)
-		(instances
-			(project "BIT90_26_Prototype"
-				(path "/d65498c3-6385-4920-ac0f-4c76daf90780/4eb1b27c-0de4-437c-bec4-8709ba05b3a7"
-					(reference "C35")
 					(unit 1)
 				)
 			)
